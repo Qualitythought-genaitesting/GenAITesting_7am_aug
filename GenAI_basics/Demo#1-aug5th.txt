@@ -1,0 +1,204 @@
+Thanks for joining with us .....
+
+Ram Prasad 
+
+18years of experience in various applications , tools and Ge AI delivery head 
+
+Gen AI testing to be compete latest requirements if software testing 
+==============================================================================
+1. How many of attendees are still working on manual testing ? 
+2. As per AI adoption in your company , is your job safe with your current project or domain ? 
+==============================================================================
+a. If you are in manual or automation testing immediately adopt AI into your daily workflow and speedup your testing .    Very immediate effect in your STLC 
+
+Automation testers  => use AI to do fast automation and deliver results quickly 
+
+Manual testers  => Use AI to do fast design test cases 
+converting user stories into test cases with AI => reduce the huge time in the test design 
+
+Chatgpt /cluade  => 
+
+AI testing  => you are not testing any AI services or AI application => using AI services or tools for your Testing as a n additional helping hand 
+
+Gen AI testing or AI testing means you are testing ai applications like web apps or mobile apps or apis or DB . 
+
+=> you need to test the application developed by AI services or openAI or antropic ai or other LLM services 
+
+=> LLM => Large Language model  => AI model => if you develop an application then that application is AI application 
+=> chatbots  => Gen AI application => Generating the content => new creative content 
+
+what is software testing to the chatgpt or claude or perplexity  these LLMS or chatbots generate a new response for your "what is software testing" question
+
+if your friend asking the same question that does not guarantee the same answer you received . 
+
+if you repeat the same question then also you are not guaranteed the same answer again. 
+
+=> Same answer again & again for the same inputs => deterministic in nature 
+=> Same inputs but does not guarantee the same outout => output is varying from attempt 1 to attempt 2 
+attempt#1 answer  attempt#2 
+
+Gen AI application => chatgpt/claude/perplexity/ollama all your known aibots you are using 
+
+these application generate the answer or response based on your question. 
+
+1. AI brain or LLM 
+2. Asking a question => Natural Language => like how you can speak to your friend 
+=> Prompt => art of asking the question is known as prompt engineering 
+3. Getting the response  => Answer is generated and delivered to the customer again in the natural language 
+
+As a customer you are asking a question to the AI in natural language and AI brain or LLM process your request and generate the answer and revert back to you in the same natural language .
+
+the generate answer is not retrieved from the memory of LLM and it is retrieved from the patterns the AI brain learned and generated for you. 
+
+then how do we test the testcase and ensure test is pass or fail. 
+
+Traditional testing => expected result == actual result 
+
+Login successful =! Login is successful 
+
+Gen AI application testing we do not care about the text it is displayed and care about the total meaning of response is 
+: accuracy 
+: relevance to the question 
+: Faithful 
+: Factuality 
+Metrics to check the response is correct or wrong => test case is pass or fail 
+
+One time test execution is sufficient to make your test pass or fail 
+
+but in Gen AI because of this probabilistic behavior we need toe execute every test before making a decision pass or fail we need to 3/5 times . 
+==============================================================================
+Pre requisites : 
+
+1. STLC process 
+2. Domain knowledge 
+3. Self learning => Exploratory testing 
+==============================================================================
+What are the examples applications we do have for gen AI applications 
+
+Generating the creative content => 
+Text answers 
+image answers 
+video answers 
+presentation 
+excel 
+music files 
+
+Agent based application : AI brain to generate the answers or response + doing actions with hands 
+AI brain + hands  => tools used to complete the task 
+
+
+gen AI /Chatgpt => you can create test cases for your user story 
+100% you can not guarantee this ai is providing accurate answers ! 
+as a tester you take the call like is these test cases are upto the mark or valid  /  you need to judge and consider what ever you require 
+
+Create an application which is similar to flipkart 
+
+
+Agent  => this time to convert my  user story into manual testcases and then automation test cases and then execute them and if any issues lets heal them 
+
+AI brain + tools to gether only solve your problem 
+
+=> agent first task try to explore the provided web url 
+=> do all actions with the help of tool 
+=> Create testcases 
+=> convert that into automation scripts 
+=> execute them 
+=> give the report 
+
+=> An agent to give reply to your emails 
+
+single agent 
+multi agent 
+MCP
+Agentic ai 
+
+
+1. LLM basic /AI basics 
+2. Prompt engineering 
+3. Red team testing 
+4. RAG based application testing  
+5. Agent based application testing 
+6. Python /Pytest 
+7. 2 weeks development activities => RAG /MCP 
+8. RAGAS/DEEPEVAL 
+9. Promptfoo => coding is less 
+10. capstone => weekends 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=> agents 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

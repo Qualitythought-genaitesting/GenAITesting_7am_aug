@@ -1,0 +1,194 @@
+Good Morning !!!!!
+
+We understand how your traditional testing is differ from Gen AI testing .
+Traditional testing is deterministic 
+Gen AI testing is probabilistic => exact match => instead we do meaning verification and behavior verification 
+
+=> Gen AI applications generate the content based on your ask . 
+=> text
+=> image
+=> video
+=> Music =>  AI brain will think like a human brain and able to answer for your question like friend or PA 
+
+You can ask a question and you can get the generated response
+=====================================================================================
+a. Fine tuning applications => 
+LLM which is pre trained => internet data is already supplied for training
+=> We specially trained this LLM on specific domain => specialist on that domain 
+so this LLM is used to answer that domain specific questions 
+
+Training is too much costlier solution 
+and every moment we need to update with the live data training => 
+
+if something is not able to answer by your LLM then there may be chance of imagine not exist things on its own and confidently send back to you in the form of response . 
+Hallucination => imagine 
+
+drugs.com/search/ai 
+
+
+b. RAG application => Retrieval Augmented Generation
+
+=> we are supplying data in your directory / company documents 
+
+This LLM => pre trained LLM => 
+a. we should not train LLM on your Data 
+b. it should be retrieved without hallucination [ imagination ]
+    => we are supplying from which document you are answering  => grounding /citation 
+        Reference document you used 
+
+  Retrieval => when you ask a question to the AI => this retrieval program tries to find the right document reference from the list of documents you supplied .
+  Augmentation => this retrieved document added to your prompt and send to the LLM to generate the answer 
+   Generation => instead of getting trained you use this document only to generate the answer . 
+            => refer this document to answer you question => 
+  question context  => Generating the response . 
+       Grounded answer  => reference document where i am getting the response 
+    true / false 
+      Guardrail => filter for safety 
+=> Safe answer ? or not 
+    => Chunks /Vectors /Vector db /embeddings  => 
+
+
+HR chatbot  => all these company ai applications will use only your internal data 
+=====================================================================================
+
+Any AI brain can able to send an email on behalf of you. 
+it read the email and summaries
+it answer the question from your email 
+
+if i want to send an email through AI then the existing system is obsolete. 
+
+only  I have a brain with that brain i can answer your question nothing more than that.
+
+I do have only brain and i do not have any hands to perform task  
+
+3.    Agent applications : think like a human and perform task 
+AI brain + hands 
+
+=> hands = tools 
+that means if you ask a question => which involves some action to be take place
+
+create a website similar to flipkart. => action is generate the website for you.
+I need to think  like a developer 
+plan SDLC => and deliver the application as a response to your question/Prompt
+
+Plan => split the a bigger task into small pieces 
+Execute the tasks 
+Observe => is this task finished => Loop 
+
+=> Plan 
+
+1. technologies => stack  => done 
+2. DB design => done
+3. UImockup => done
+4. backend coding => done
+5. Integrate the modules => done
+6. deploy the application=> done
+7. test the application=> done
+8. preview => done 
+9. Publish => the website 
+
+bolt.new 
+emergent.app
+lovalable.dev 
+
+time is taking a lot as it is going in step by step process 
+
+by adding parallel tasks then we can reduce the time . 
+
+IC => 
+
+4. Multi agent : here instead of single agent we use multiple agents
+
+Team work 
+=> Lead => recourses 
+Lead  => plan the task and split the task  => assign the task to a specialist subagent 
+
+I want to book a trip to bali for 2 mem => 2 laks budget for 1 week 
+
+Orchestrator => Lead => Plan => split the task into sub task assign each sub task to a sub agent 
+
+Flight agent  => to book the flight 
+Hotel agent  => to book the hotel 
+budget agent => will allocate the funds to both the agents 
+day planner  => agent will plan the day based on the hotel 
+
+orchestrator => flight agent 
+Flight agent to Budget agent 
+
+5. MCP =>  MODEL CONTEXT PROTOCOL 
+
+USB C cable 
+
+if you want to access others applications or tool you can follow this standard 
+
+facility to connect with the external sources. 
+
+External tools get connected through LLMS with the help of  MCP
+
+
+6. Agentic AI => autonomous  =>  driver less car 
+
+==================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
