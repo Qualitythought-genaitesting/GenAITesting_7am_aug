@@ -1,0 +1,148 @@
+Good morning !!!!!
+
+Recap!
+
+We understand 
+1. what is Gen AI application ? 
+2. Type of applications 
+3. Why traditional software testing fails in Gen AI testing 
+4. deterministic testing and how to do probabilistic testing 
+5. We understand blue team vs Red team through AI labs . 
+
+Today We would like to understand how AI is useful for our traditional testing? 
+
+where we can use AI in traditional testing ? 
+
+AI => artificial intelligence : 
+
+Software testing life cycle : STLC 
+
+a. Requirement analysis 
+b. testing planning 
+c. test design 
+d. test execution 
+   Environment setup
+   Smoke testing 
+   Sanity testing 
+   Retesting 
+   Regression testing 
+   Bugs 
+   Bug life cycle 
+e. test closure 
+
+
+now we would like to understand where we can use AI to simplify your testing task . 
+
+1. Requirement analysis  => this is for your understanding about the project 
+2. Testing planning  => test plan => here we can use AI to generate the test plan for your requirement .  
+
+how to use AI to create the test plan => 
+
+you write simple question to AI => 
+I want to write a test plan for [my trip application] . which contains different features [features list] , [which template] => any existing template you do have in your company add that template to AI . as an attachment. 
+[Any constraints]if there is any exclusions in this project you mention that.
+
+Ai is able to generate the Test plan for the application you mentioned with your guidelines . 
+
+We used two different AI brains 
+a. Chatgpt => did we get the same thinking in both the brains ? 
+
+Yes. For this project, I recommend structuring the Test Plan around ISO/IEC/IEEE 29119-3:2021, rather than the older IEEE 829 format. IEEE/ISO/IEC 29119-3:2021 is the current published test-documentation standard and provides templates for test documentation; IEEE 29119-2:2021 covers the associated test processes.
+ 
+b. claude 
+
+Built the full IEEE 829 test plan (13 pages), scoped strictly to functional + browser compatibility testing across Web/Android/iOS, with all non-functional testing explicitly called out as excluded (Section 4).
+
+
+Same AI brain again you ask the same question it will not be guaranteed that same answer. 
+attempt #1 
+attempt #2 
+
+=> Two different AI brains do not think in the same direction . Every AI brain do have some rules and regulations. 
+
+EULA => End user license agreement  => you need to accept this before proceeding with installation ? 
+
+Chatgpt => re think about your same question if you ask again 
+claude => letting you know that recently i completed the task with your all your information so please use it . 
+
+system rules / system prompt  => hidden rules to answer your query or prompt 
+so system prompt for chatgpt is not same as system prompt for claude. 
+
+to understand not only your requirement from customer side but also system or AI brain side also we do have requirements. clubbed together to create the test cases or expected results for the tests based on system prompt 
+
+2. Test cases : we will take AI help to finish the test cases design .
+
+consider one module at a time or one user story at a time : 
+flight booking is the module to create the test cases 
+
+I am a senior tester for this trip planner project ,  I need your help in designing the end to end test cases for flight booking module it should cover positive and happy path testcases, negative test cases , edge cases , boundary tests , compatibility cases , Functional tests with detailed step by step test cases  in a IEEE 829 template in the excel sheet . A complete design and execution should be maintained in the excel .
+
+
+3. Specialized test suites like smoke sanity and regression with AI 
+
+I would like to generate the smoke and Regression test suites for my trip planner application with AI . 
+
+
+as a user of chatgpt and claude you are using it for your STLC . 
+
+Now I am a tester how do i test the 3 prompts .
+1. Test plan 
+2. test cases 
+3. regression and smoke suite 
+
+you need to check the output/response is 
+
+a. correct  => Test plan should be a right one / test cases / suites also should like  how you create as a manual tester the same scenarios / same way it should eb created . 
+
+b. relevant => as per the question your answer is in the similar note. 
+
+c. factuality => is it true or providing any wrong / Imaginate answers => only facts should be displayed 
+
+d. faithfulness => Can we trust this answer any unwanted or unsafe content delivered in this responses . 
+
+outcome : 
+Domain knowledge 
+prompt engineering 
+self learning/exploratory testing  => you need to refine your prompt based on the output you received and more accurate answer with your finetuning => updating the prompt to get more accurate result . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
