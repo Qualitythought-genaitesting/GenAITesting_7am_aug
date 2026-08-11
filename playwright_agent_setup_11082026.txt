@@ -1,0 +1,92 @@
+Good Morning !!!!!
+Recap! 
+
+We understand how AI is helping us in speeding up our testing 
+
+today we would like to understand how playwright is taking the help of AI agents to speedup the automation. 
+
+1. Playwright setup in local computer 
+2. agents setup 
+
+=> Open your computer and create a folder with name playwright
+=> Download and install vscode for your computer . The open source AI code editor
+a. https://code.visualstudio.com/thank-you?dv=win64user   download VSCODE 
+b. install by double click on the downloaded installed and next and  next
+c. you can able to see VSCODE in your computer . 
+
+=> As this playwright developed in JS we need nodejs to run the playwright in your local computer. 
+
+a. download and install nodejs to setup playwright in your computer.
+
+Run JavaScript Everywhere
+Node.js® is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
+
+b. https://nodejs.org/en/download - download from this URL 
+c. Install by clicking on next /next => install 
+
+Checking the node js is correctly installed or not.
+
+PS C:\Users\PC\Documents\GitHub\GenAITesting_7am_aug\Playwright_agents> node -v 
+v24.19.0
+PS C:\Users\PC\Documents\GitHub\GenAITesting_7am_aug\Playwright_agents> 
+
+npm => node package manager  => to download install the node package from the server 
+npx => node package executor 
+d. playwright => https://playwright.dev
+Installing Playwright
+1. npm init playwright@latest
+
+once installation is done to test the sample test cases provided in the tests folder 
+npx playwright test
+
+to open the html report - 
+npx playwright show-report
+
+4. GitHub account  - if you have - create one 
+5. Login to GitHub account in the VSCODE 
+6. use GitHub copilot as your LLM or chatbot or coding assistant 
+7. click chat icon to start working with copilot 
+8. install playwright mcp server in your computer or VSCODE 
+Model context protocol => you connect with external tools from your playwright 
+9. npx playwright init-agents --loop=vscode
+10. 
+
+Planner agent in the playwright suppose to create the testplan based on your inputs 
+
+=> AI agents are every where , coming to the test playwright offering agents to 
+write test plan => planner agent 
+write automation tests => generator agent 
+fix the problems in the tests => healing agent 
+
+
+by using 3 default agents we can learn automation very quickly 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

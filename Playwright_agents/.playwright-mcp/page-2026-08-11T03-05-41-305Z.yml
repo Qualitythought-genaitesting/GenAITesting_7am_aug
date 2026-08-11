@@ -1,0 +1,589 @@
+- generic [active] [ref=f9e1]:
+  - link "Skip to main content" [ref=f9e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - link [ref=f9e6] [cursor=pointer]:
+        - /url: //www.drugs.com/
+        - img "Drugs.com - Go to homepage" [ref=f9e7]
+      - search [ref=f9e8]:
+        - generic [ref=f9e9]:
+          - generic [ref=f9e10]:
+            - generic [ref=f9e11]: Search Drugs.com
+            - textbox "Search Drugs.com" [ref=f9e12]:
+              - /placeholder: Search
+              - text: paracetamol
+          - generic [ref=f9e13]:
+            - button "All" [ref=f9e14] [cursor=pointer]
+            - generic:
+              - generic [ref=f9e18]: Select the section you want to search in
+              - combobox "Select the section you want to search in" [ref=f9e19]:
+                - option "All" [selected]
+                - option "Consumer"
+                - option "Professional"
+                - option "Pill ID"
+                - option "Interactions"
+                - option "News and alerts"
+                - option "Care notes"
+                - option "Natural products"
+          - button "Search" [ref=f9e20] [cursor=pointer]
+        - navigation [ref=f9e24]:
+          - text: "Browse medications:"
+          - list [ref=f9e25]:
+            - listitem [ref=f9e26]:
+              - link "a" [ref=f9e27] [cursor=pointer]:
+                - /url: /alpha/a.html
+            - listitem [ref=f9e28]:
+              - link "b" [ref=f9e29] [cursor=pointer]:
+                - /url: /alpha/b.html
+            - listitem [ref=f9e30]:
+              - link "c" [ref=f9e31] [cursor=pointer]:
+                - /url: /alpha/c.html
+            - listitem [ref=f9e32]:
+              - link "d" [ref=f9e33] [cursor=pointer]:
+                - /url: /alpha/d.html
+            - listitem [ref=f9e34]:
+              - link "e" [ref=f9e35] [cursor=pointer]:
+                - /url: /alpha/e.html
+            - listitem [ref=f9e36]:
+              - link "f" [ref=f9e37] [cursor=pointer]:
+                - /url: /alpha/f.html
+            - listitem [ref=f9e38]:
+              - link "g" [ref=f9e39] [cursor=pointer]:
+                - /url: /alpha/g.html
+            - listitem [ref=f9e40]:
+              - link "h" [ref=f9e41] [cursor=pointer]:
+                - /url: /alpha/h.html
+            - listitem [ref=f9e42]:
+              - link "i" [ref=f9e43] [cursor=pointer]:
+                - /url: /alpha/i.html
+            - listitem [ref=f9e44]:
+              - link "j" [ref=f9e45] [cursor=pointer]:
+                - /url: /alpha/j.html
+            - listitem [ref=f9e46]:
+              - link "k" [ref=f9e47] [cursor=pointer]:
+                - /url: /alpha/k.html
+            - listitem [ref=f9e48]:
+              - link "l" [ref=f9e49] [cursor=pointer]:
+                - /url: /alpha/l.html
+            - listitem [ref=f9e50]:
+              - link "m" [ref=f9e51] [cursor=pointer]:
+                - /url: /alpha/m.html
+            - listitem [ref=f9e52]:
+              - link "n" [ref=f9e53] [cursor=pointer]:
+                - /url: /alpha/n.html
+            - listitem [ref=f9e54]:
+              - link "o" [ref=f9e55] [cursor=pointer]:
+                - /url: /alpha/o.html
+            - listitem [ref=f9e56]:
+              - link "p" [ref=f9e57] [cursor=pointer]:
+                - /url: /alpha/p.html
+            - listitem [ref=f9e58]:
+              - link "q" [ref=f9e59] [cursor=pointer]:
+                - /url: /alpha/q.html
+            - listitem [ref=f9e60]:
+              - link "r" [ref=f9e61] [cursor=pointer]:
+                - /url: /alpha/r.html
+            - listitem [ref=f9e62]:
+              - link "s" [ref=f9e63] [cursor=pointer]:
+                - /url: /alpha/s.html
+            - listitem [ref=f9e64]:
+              - link "t" [ref=f9e65] [cursor=pointer]:
+                - /url: /alpha/t.html
+            - listitem [ref=f9e66]:
+              - link "u" [ref=f9e67] [cursor=pointer]:
+                - /url: /alpha/u.html
+            - listitem [ref=f9e68]:
+              - link "v" [ref=f9e69] [cursor=pointer]:
+                - /url: /alpha/v.html
+            - listitem [ref=f9e70]:
+              - link "w" [ref=f9e71] [cursor=pointer]:
+                - /url: /alpha/w.html
+            - listitem [ref=f9e72]:
+              - link "x" [ref=f9e73] [cursor=pointer]:
+                - /url: /alpha/x.html
+            - listitem [ref=f9e74]:
+              - link "y" [ref=f9e75] [cursor=pointer]:
+                - /url: /alpha/y.html
+            - listitem [ref=f9e76]:
+              - link "z" [ref=f9e77] [cursor=pointer]:
+                - /url: /alpha/z.html
+            - listitem [ref=f9e78]:
+              - link "0-9" [ref=f9e79] [cursor=pointer]:
+                - /url: /alpha/0-9.html
+          - link "Advanced Search" [ref=f9e80] [cursor=pointer]:
+            - /url: /search_advanced.html
+      - navigation "Account navigation" [ref=f9e81]:
+        - link "Register" [ref=f9e82] [cursor=pointer]:
+          - /url: /account/register/
+        - link "Sign in" [ref=f9e83] [cursor=pointer]:
+          - /url: /account/login/
+    - navigation "Main navigation" [ref=f9e85]:
+      - list [ref=f9e86]:
+        - listitem [ref=f9e87]:
+          - link "Drugs A-Z" [ref=f9e88] [cursor=pointer]:
+            - /url: /drug_information.html
+        - listitem [ref=f9e89]:
+          - link "Pill Identifier" [ref=f9e90] [cursor=pointer]:
+            - /url: /pill_identification.html
+        - listitem [ref=f9e91]:
+          - link "Drug Interaction Checker" [ref=f9e92] [cursor=pointer]:
+            - /url: /drug_interactions.html
+        - listitem [ref=f9e93]:
+          - link "Compare Drugs" [ref=f9e94] [cursor=pointer]:
+            - /url: /compare/
+        - listitem [ref=f9e95]:
+          - link "News" [ref=f9e96] [cursor=pointer]:
+            - /url: /news.html
+        - listitem [ref=f9e97]:
+          - link "Pro Edition" [ref=f9e98] [cursor=pointer]:
+            - /url: /professionals.html
+        - listitem [ref=f9e99]:
+          - link "More Resources …" [ref=f9e100] [cursor=pointer]:
+            - /url: /sitemap.html
+            - text: More
+            - generic [ref=f9e101]: Resources
+            - text: …
+        - listitem [ref=f9e102]:
+          - link "Help & Support" [ref=f9e103] [cursor=pointer]:
+            - /url: /support/
+  - generic [ref=f9e104]: Advertisement
+  - main [ref=f9e106]:
+    - generic [ref=f9e107]:
+      - generic [ref=f9e108]:
+        - navigation "Breadcrumbs" [ref=f9e109]:
+          - list [ref=f9e110]:
+            - listitem [ref=f9e111]:
+              - link "Home" [ref=f9e112] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=f9e113]:
+              - link "Search" [ref=f9e114] [cursor=pointer]:
+                - /url: /search_advanced.html
+            - listitem [ref=f9e115]:
+              - generic [ref=f9e116]: 4,581 results
+        - link "Español" [ref=f9e118] [cursor=pointer]:
+          - /url: /search.php?searchterm=paracetamol&language=spanish
+      - generic [ref=f9e119]:
+        - generic [ref=f9e121]:
+          - generic [ref=f9e122]:
+            - heading [level=3] [ref=f9e123]:
+              - link "Paracetamol" [ref=f9e124] [cursor=pointer]:
+                - /url: /paracetamol.html
+            - paragraph [ref=f9e125]: Paracetamol (Panadol, Calpol, Alvedon) is an analgesic and antipyretic drug that is used to temporarily relieve mild-to-moderate pain and fever. It is commonly included as an ingredient in cold and flu medications and is also used on its own. Paracetamol is exactly the same drug as acetaminophen (Tylenol)....
+            - button "My Meds" [ref=f9e127] [cursor=pointer]
+          - list [ref=f9e130]:
+            - listitem [ref=f9e131]:
+              - link "Side Effects" [ref=f9e132] [cursor=pointer]:
+                - /url: /sfx/paracetamol-side-effects.html
+            - listitem [ref=f9e133]:
+              - link "Pregnancy / Breastfeeding" [ref=f9e134] [cursor=pointer]:
+                - /url: /pregnancy/acetaminophen.html
+            - listitem [ref=f9e135]:
+              - link "Drug Interactions" [ref=f9e136] [cursor=pointer]:
+                - /url: /drug-interactions/acetaminophen,paracetamol.html
+            - listitem [ref=f9e137]:
+              - link "Dosage" [ref=f9e138] [cursor=pointer]:
+                - /url: /dosage/acetaminophen.html
+            - listitem [ref=f9e139]:
+              - link "Support Group Q & A" [ref=f9e140] [cursor=pointer]:
+                - /url: /answers/support-group/paracetamol/
+            - listitem [ref=f9e141]:
+              - link "Compare Alternatives" [ref=f9e142] [cursor=pointer]:
+                - /url: /compare/paracetamol
+          - generic [ref=f9e143]:
+            - generic [ref=f9e144]: 6.4 / 10
+            - 'img "Rating: 6.4 out of 10" [ref=f9e145]'
+            - link "18 Reviews" [ref=f9e147] [cursor=pointer]:
+              - /url: /comments/acetaminophen/paracetamol.html
+        - generic [ref=f9e150]:
+          - generic [ref=f9e151]: Consumer Information
+          - heading [level=3] [ref=f9e152]:
+            - link "Paracetamol Uses, Dosage, Side Effects, Warnings Consumer Information" [ref=f9e153] [cursor=pointer]:
+              - /url: /paracetamol.html
+          - paragraph [ref=f9e154]: Paracetamol is exactly the same drug as acetaminophen (Tylenol). Paracetamol is the drug's name assigned using the International Nonproprietary Name (INN) generic name system. Paracetamol is the name used for the drug in places such as Europe, Australia, New Zealand and India. Acetaminophen is the...
+        - generic [ref=f9e156]:
+          - heading [level=3] [ref=f9e157]:
+            - link "News for paracetamol" [ref=f9e158] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&sources[]=news&sources[]=fdaalerts
+          - list [ref=f9e159]:
+            - listitem [ref=f9e160]:
+              - link "Study Reveals No Link Between Prenatal Acetaminophen and..." [ref=f9e161] [cursor=pointer]:
+                - /url: /news/study-reveals-no-link-between-prenatal-acetaminophen-autism-adhd-offspring-130601.html
+              - text: Jul 9, 2026
+            - listitem [ref=f9e162]:
+              - link "Melatonin Shows Promise As Safe, Cheap Painkiller, Review..." [ref=f9e163] [cursor=pointer]:
+                - /url: /news/melatonin-shows-promise-safe-cheap-painkiller-review-concludes-130517.html
+              - text: Jul 1, 2026
+            - listitem [ref=f9e164]:
+              - link "Reduction in Acetaminophen Orders in ED After White House..." [ref=f9e165] [cursor=pointer]:
+                - /url: /news/reduction-acetaminophen-orders-ed-after-white-house-briefing-129216.html
+              - text: Mar 17, 2026
+            - listitem [ref=f9e166]:
+              - text: "FDA Alert:"
+              - link "Voluntary Recall of Certain Family Dollar Over-the-Counter..." [ref=f9e167] [cursor=pointer]:
+                - /url: /fda/voluntary-recall-certain-family-dollar-over-counter-products-14550.html
+              - text: Jul 21, 2022
+        - heading "See also:" [level=4] [ref=f9e168]
+        - region "Medication carousel" [ref=f9e169]:
+          - generic [ref=f9e171]:
+            - generic [ref=f9e172]:
+              - generic [ref=f9e173]:
+                - heading [level=3] [ref=f9e174]:
+                  - link "Tylenol" [ref=f9e175] [cursor=pointer]:
+                    - /url: /tylenol.html
+                - paragraph [ref=f9e176]: Tylenol is a pain reliever and a fever reducer used to treat many conditions such as headaches ...
+              - generic [ref=f9e177]:
+                - text: Reviews & ratings
+                - generic [ref=f9e178]:
+                  - generic [ref=f9e179]: 5.8 / 10
+                  - 'img "Rating: 5.8 out of 10" [ref=f9e180]'
+                  - link "34 Reviews" [ref=f9e182] [cursor=pointer]:
+                    - /url: /comments/acetaminophen/tylenol.html
+              - link "View more" [ref=f9e184] [cursor=pointer]:
+                - /url: /tylenol.html
+            - generic [ref=f9e185]:
+              - generic [ref=f9e186]:
+                - heading [level=3] [ref=f9e187]:
+                  - link "Flexeril" [ref=f9e188] [cursor=pointer]:
+                    - /url: /flexeril.html
+                - paragraph [ref=f9e189]: Flexeril (cyclobenzaprine) is a muscle relaxant used to treat skeletal muscle conditions such as ...
+              - generic [ref=f9e190]:
+                - text: Reviews & ratings
+                - generic [ref=f9e191]:
+                  - generic [ref=f9e192]: 6.1 / 10
+                  - 'img "Rating: 6.1 out of 10" [ref=f9e193]'
+                  - link "245 Reviews" [ref=f9e195] [cursor=pointer]:
+                    - /url: /comments/cyclobenzaprine/flexeril.html
+              - link "View more" [ref=f9e197] [cursor=pointer]:
+                - /url: /flexeril.html
+            - generic [ref=f9e198]:
+              - generic [ref=f9e199]: Featured
+              - generic [ref=f9e200]:
+                - heading [level=3] [ref=f9e201]:
+                  - link "Jaypirca" [ref=f9e202] [cursor=pointer]:
+                    - /url: /jaypirca.html
+                - paragraph [ref=f9e203]: Jaypirca (pirtobrutinib) is a cancer medicine used to treat types of CLL, SLL, and MCL. Includes ...
+              - generic [ref=f9e204]:
+                - text: Reviews & ratings
+                - link "4 Reviews" [ref=f9e206] [cursor=pointer]:
+                  - /url: /comments/pirtobrutinib/jaypirca.html
+              - link "View more" [ref=f9e208] [cursor=pointer]:
+                - /url: /jaypirca.html
+            - generic [ref=f9e209]:
+              - generic [ref=f9e210]:
+                - heading [level=3] [ref=f9e211]:
+                  - link "Advil" [ref=f9e212] [cursor=pointer]:
+                    - /url: /advil.html
+                - paragraph [ref=f9e213]: Advil (ibuprofen) reduces fever, pain and inflammation caused by headaches, toothaches, arthritis ...
+              - generic [ref=f9e214]:
+                - text: Reviews & ratings
+                - generic [ref=f9e215]:
+                  - generic [ref=f9e216]: 6.9 / 10
+                  - 'img "Rating: 6.9 out of 10" [ref=f9e217]'
+                  - link "41 Reviews" [ref=f9e219] [cursor=pointer]:
+                    - /url: /comments/ibuprofen/advil.html
+              - link "View more" [ref=f9e221] [cursor=pointer]:
+                - /url: /advil.html
+            - generic [ref=f9e222]:
+              - generic [ref=f9e223]:
+                - heading [level=3] [ref=f9e224]:
+                  - link "Voltaren" [ref=f9e225] [cursor=pointer]:
+                    - /url: /voltaren.html
+                - paragraph [ref=f9e226]: Voltaren (diclofenac) is used to treat pain or inflammation caused by arthritis or ankylosing ...
+              - generic [ref=f9e227]:
+                - text: Reviews & ratings
+                - generic [ref=f9e228]:
+                  - generic [ref=f9e229]: 7.3 / 10
+                  - 'img "Rating: 7.3 out of 10" [ref=f9e230]'
+                  - link "168 Reviews" [ref=f9e232] [cursor=pointer]:
+                    - /url: /comments/diclofenac/voltaren.html
+              - link "View more" [ref=f9e234] [cursor=pointer]:
+                - /url: /voltaren.html
+            - generic [ref=f9e235]:
+              - generic [ref=f9e236]:
+                - heading [level=3] [ref=f9e237]:
+                  - link "Naproxen" [ref=f9e238] [cursor=pointer]:
+                    - /url: /naproxen.html
+                - paragraph [ref=f9e239]: Naproxen is a nonsteroidal anti-inflammatory drug used to treat pain or inflammation caused by ...
+              - generic [ref=f9e240]:
+                - text: Reviews & ratings
+                - generic [ref=f9e241]:
+                  - generic [ref=f9e242]: 6.8 / 10
+                  - 'img "Rating: 6.8 out of 10" [ref=f9e243]'
+                  - link "690 Reviews" [ref=f9e245] [cursor=pointer]:
+                    - /url: /comments/naproxen/
+              - link "View more" [ref=f9e247] [cursor=pointer]:
+                - /url: /naproxen.html
+            - generic [ref=f9e248]:
+              - generic [ref=f9e249]:
+                - heading [level=3] [ref=f9e250]:
+                  - link "Diclofenac" [ref=f9e251] [cursor=pointer]:
+                    - /url: /diclofenac.html
+                - paragraph [ref=f9e252]: Diclofenac is a nonsteroidal anti-inflammatory drug used to treat pain and inflammation associated ...
+              - generic [ref=f9e253]:
+                - text: Reviews & ratings
+                - generic [ref=f9e254]:
+                  - generic [ref=f9e255]: 7.3 / 10
+                  - 'img "Rating: 7.3 out of 10" [ref=f9e256]'
+                  - link "713 Reviews" [ref=f9e258] [cursor=pointer]:
+                    - /url: /comments/diclofenac/
+              - link "View more" [ref=f9e260] [cursor=pointer]:
+                - /url: /diclofenac.html
+            - generic [ref=f9e261]:
+              - generic [ref=f9e262]:
+                - heading [level=3] [ref=f9e263]:
+                  - link "Cyclobenzaprine" [ref=f9e264] [cursor=pointer]:
+                    - /url: /cyclobenzaprine.html
+                - paragraph [ref=f9e265]: Cyclobenzaprine is a muscle relaxant used for short-term pain relief. Learn about its uses, dosage ...
+              - generic [ref=f9e266]:
+                - text: Reviews & ratings
+                - generic [ref=f9e267]:
+                  - generic [ref=f9e268]: 6.0 / 10
+                  - 'img "Rating: 6.0 out of 10" [ref=f9e269]'
+                  - link "635 Reviews" [ref=f9e271] [cursor=pointer]:
+                    - /url: /comments/cyclobenzaprine/
+              - link "View more" [ref=f9e273] [cursor=pointer]:
+                - /url: /cyclobenzaprine.html
+            - generic [ref=f9e274]:
+              - generic [ref=f9e275]:
+                - heading [level=3] [ref=f9e276]:
+                  - link "Ibuprofen" [ref=f9e277] [cursor=pointer]:
+                    - /url: /ibuprofen.html
+                - paragraph [ref=f9e278]: Ibuprofen (Advil, Motrin) treats minor aches and pains caused by the common cold, headaches ...
+              - generic [ref=f9e279]:
+                - text: Reviews & ratings
+                - generic [ref=f9e280]:
+                  - generic [ref=f9e281]: 7.3 / 10
+                  - 'img "Rating: 7.3 out of 10" [ref=f9e282]'
+                  - link "246 Reviews" [ref=f9e284] [cursor=pointer]:
+                    - /url: /comments/ibuprofen/
+              - link "View more" [ref=f9e286] [cursor=pointer]:
+                - /url: /ibuprofen.html
+            - generic [ref=f9e287]:
+              - generic [ref=f9e288]:
+                - heading [level=3] [ref=f9e289]:
+                  - link "Aspirin" [ref=f9e290] [cursor=pointer]:
+                    - /url: /aspirin.html
+                - paragraph [ref=f9e291]: Aspirin is used to treat mild to moderate pain and to reduce fever or inflammation. Learn about ...
+              - generic [ref=f9e292]:
+                - text: Reviews & ratings
+                - generic [ref=f9e293]:
+                  - generic [ref=f9e294]: 7.8 / 10
+                  - 'img "Rating: 7.8 out of 10" [ref=f9e295]'
+                  - link "53 Reviews" [ref=f9e297] [cursor=pointer]:
+                    - /url: /comments/aspirin/
+              - link "View more" [ref=f9e299] [cursor=pointer]:
+                - /url: /aspirin.html
+          - button "Scroll right" [ref=f9e300] [cursor=pointer]
+        - generic [ref=f9e306]:
+          - generic [ref=f9e307]: Compare Drug Alternatives
+          - heading [level=3] [ref=f9e308]:
+            - link "Disprol Paracetamol vs Paracetamol Comparison" [ref=f9e309] [cursor=pointer]:
+              - /url: /compare/disprol-paracetamol-vs-paracetamol
+          - paragraph [ref=f9e310]: View side-by-side comparisons of medication uses, ratings, cost, side effects and interactions. Disprol Paracetamol(acetaminophen) Paracetamol(acetaminophen) View side-by-side comparisons of medication uses, ratings, cost, side effects and interactions. Disprol Paracetamol(acetaminophen...
+        - generic [ref=f9e313]:
+          - generic [ref=f9e314]: Side Effects
+          - heading [level=3] [ref=f9e315]:
+            - 'link "Paracetamol Side Effects: Common, Severe, Long Term" [ref=f9e316] [cursor=pointer]':
+              - /url: /sfx/paracetamol-side-effects.html
+          - paragraph [ref=f9e317]: "Note: This document provides detailed information about Paracetamol side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name Paracetamol. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder, solution, suppository..."
+        - generic [ref=f9e320]:
+          - generic [ref=f9e321]: Compare Drug Alternatives
+          - heading [level=3] [ref=f9e322]:
+            - link "Paracetamol vs Paracetamol Sandoz Conseil Comparison" [ref=f9e323] [cursor=pointer]:
+              - /url: /compare/paracetamol-vs-paracetamol-sandoz-conseil
+          - paragraph [ref=f9e324]: View side-by-side comparisons of medication uses, ratings, cost, side effects and interactions. Paracetamol(acetaminophen) Paracetamol Sandoz Conseil(acetaminophen) View side-by-side comparisons of medication uses, ratings, cost, side effects and interactions. Paracetamol(acetaminophen) Paracetamol...
+        - generic [ref=f9e327]:
+          - generic [ref=f9e328]: Side Effects
+          - heading [level=3] [ref=f9e329]:
+            - 'link "Herron Paracetamol Side Effects: Common, Severe, Long Term" [ref=f9e330] [cursor=pointer]':
+              - /url: /sfx/herron-paracetamol-side-effects.html
+          - paragraph [ref=f9e331]: "Note: This document provides detailed information about Herron Paracetamol side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name Herron Paracetamol. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder, solution..."
+        - generic [ref=f9e334]:
+          - generic [ref=f9e335]: Side Effects
+          - heading [level=3] [ref=f9e336]:
+            - 'link "ICN Paracetamol Side Effects: Common, Severe, Long Term" [ref=f9e337] [cursor=pointer]':
+              - /url: /sfx/icn-paracetamol-side-effects.html
+          - paragraph [ref=f9e338]: "Note: This document provides detailed information about ICN Paracetamol side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name ICN Paracetamol. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder, solution..."
+        - generic [ref=f9e341]:
+          - generic [ref=f9e342]: Side Effects
+          - heading [level=3] [ref=f9e343]:
+            - 'link "Paineze Paracetamol Side Effects: Common, Severe, Long Term" [ref=f9e344] [cursor=pointer]':
+              - /url: /sfx/paineze-paracetamol-side-effects.html
+          - paragraph [ref=f9e345]: "Note: This document provides detailed information about Paineze Paracetamol side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name Paineze Paracetamol. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder..."
+        - generic [ref=f9e348]:
+          - generic [ref=f9e349]: Side Effects
+          - heading [level=3] [ref=f9e350]:
+            - 'link "Paracetamol Arrow Side Effects: Common, Severe, Long Term" [ref=f9e351] [cursor=pointer]':
+              - /url: /sfx/paracetamol-arrow-side-effects.html
+          - paragraph [ref=f9e352]: "Note: This document provides detailed information about Paracetamol Arrow side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name Paracetamol Arrow. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder, solution..."
+        - generic [ref=f9e355]:
+          - generic [ref=f9e356]: Side Effects
+          - heading [level=3] [ref=f9e357]:
+            - 'link "Paracetamol Almus Side Effects: Common, Severe, Long Term" [ref=f9e358] [cursor=pointer]':
+              - /url: /sfx/paracetamol-almus-side-effects.html
+          - paragraph [ref=f9e359]: "Note: This document provides detailed information about Paracetamol Almus side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name Paracetamol Almus. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder, solution..."
+        - generic [ref=f9e362]:
+          - generic [ref=f9e363]: Side Effects
+          - heading [level=3] [ref=f9e364]:
+            - 'link "Paracetamol Ivax Side Effects: Common, Severe, Long Term" [ref=f9e365] [cursor=pointer]':
+              - /url: /sfx/paracetamol-ivax-side-effects.html
+          - paragraph [ref=f9e366]: "Note: This document provides detailed information about Paracetamol Ivax side effects associated with acetaminophen. Some dosage forms listed may not apply specifically to the brand name Paracetamol Ivax. Applies to acetaminophen: capsule, capsule liquid filled, elixir, liquid, powder, solution..."
+      - generic [ref=f9e367]:
+        - heading "See also" [level=4] [ref=f9e368]
+        - list [ref=f9e369]:
+          - listitem [ref=f9e370]:
+            - link "Fever" [ref=f9e371] [cursor=pointer]:
+              - /url: /condition/fever.html
+          - listitem [ref=f9e372]:
+            - link "Muscle Pain" [ref=f9e373] [cursor=pointer]:
+              - /url: /condition/muscular-aches-and-pains.html
+          - listitem [ref=f9e374]:
+            - link "Pain" [ref=f9e375] [cursor=pointer]:
+              - /url: /condition/pain.html
+          - listitem [ref=f9e376]:
+            - link "Sciatica" [ref=f9e377] [cursor=pointer]:
+              - /url: /condition/sciatica.html
+      - navigation "Search results navigation" [ref=f9e378]:
+        - list [ref=f9e379]:
+          - listitem [ref=f9e380]:
+            - generic [ref=f9e381]: "1"
+          - listitem [ref=f9e382]:
+            - link "Page 2" [ref=f9e383] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=2
+              - text: "2"
+          - listitem [ref=f9e384]:
+            - link "Page 3" [ref=f9e385] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=3
+              - text: "3"
+          - listitem [ref=f9e386]:
+            - link "Page 4" [ref=f9e387] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=4
+              - text: "4"
+          - listitem [ref=f9e388]:
+            - link "Page 5" [ref=f9e389] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=5
+              - text: "5"
+          - listitem [ref=f9e390]:
+            - link "Page 6" [ref=f9e391] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=6
+              - text: "6"
+          - listitem [ref=f9e392]:
+            - link "Page 7" [ref=f9e393] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=7
+              - text: "7"
+          - listitem [ref=f9e394]:
+            - link "Page 8" [ref=f9e395] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=8
+              - text: "8"
+          - listitem [ref=f9e396]:
+            - link "Page 9" [ref=f9e397] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=9
+              - text: "9"
+          - listitem [ref=f9e398]:
+            - generic [ref=f9e399]: ...
+          - listitem [ref=f9e400]:
+            - link "Next page" [ref=f9e401] [cursor=pointer]:
+              - /url: /search.php?searchterm=paracetamol&page_number=2
+              - generic [ref=f9e402]: Next
+      - paragraph [ref=f9e405]:
+        - text: Looking for something specific? Try our
+        - link "Advanced search" [ref=f9e406] [cursor=pointer]:
+          - /url: /search_advanced.html?searchterm=paracetamol
+  - contentinfo [ref=f9e408]:
+    - generic [ref=f9e409]:
+      - generic [ref=f9e410]:
+        - generic [ref=f9e411]:
+          - generic [ref=f9e412]: Drugs.com Mobile App
+          - paragraph [ref=f9e413]: Access drug & treatment information, identify pills, check interactions and set up personal medication records.
+          - generic [ref=f9e414]:
+            - link "Download the Medication Guide app on iTunes" [ref=f9e415] [cursor=pointer]:
+              - /url: //apps.apple.com/us/app/drugs-com-medication-guide/id599471042?platform=iphone
+            - link "Download the Medication Guide app on the Google Play store" [ref=f9e418] [cursor=pointer]:
+              - /url: //play.google.com/store/apps/details?id=com.drugscom.app
+        - img "Drugs.com mobile app" [ref=f9e423]
+      - navigation "Informational and social site links" [ref=f9e424]:
+        - link "Drugs.com" [ref=f9e426] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f9e429]:
+          - generic [ref=f9e430]: About
+          - list [ref=f9e431]:
+            - listitem [ref=f9e432]:
+              - link "About Drugs.com" [ref=f9e433] [cursor=pointer]:
+                - /url: /support/about.html
+            - listitem [ref=f9e434]:
+              - link "Advertising policy" [ref=f9e435] [cursor=pointer]:
+                - /url: /support/advertising.html
+            - listitem [ref=f9e436]:
+              - link "Attribution & citations" [ref=f9e437] [cursor=pointer]:
+                - /url: /support/citations.html
+            - listitem [ref=f9e438]:
+              - link "Drugs.com Podcast" [ref=f9e439] [cursor=pointer]:
+                - /url: //podcasts.drugs.com/
+        - generic [ref=f9e440]:
+          - generic [ref=f9e441]: Terms & privacy
+          - list [ref=f9e442]:
+            - listitem [ref=f9e443]:
+              - link "Terms of use" [ref=f9e444] [cursor=pointer]:
+                - /url: /support/terms.html
+            - listitem [ref=f9e445]:
+              - link "Editorial policy" [ref=f9e446] [cursor=pointer]:
+                - /url: /support/editorial-policy.html
+            - listitem [ref=f9e447]:
+              - link "Privacy policy" [ref=f9e448] [cursor=pointer]:
+                - /url: /support/privacy.html
+        - generic [ref=f9e449]:
+          - generic [ref=f9e450]: Support
+          - list [ref=f9e451]:
+            - listitem [ref=f9e452]:
+              - link "Help center" [ref=f9e453] [cursor=pointer]:
+                - /url: /support/
+            - listitem [ref=f9e454]:
+              - link "Sitemap" [ref=f9e455] [cursor=pointer]:
+                - /url: /sitemap.html
+            - listitem [ref=f9e456]:
+              - link "Contact us" [ref=f9e457] [cursor=pointer]:
+                - /url: /support/contact.html
+            - listitem [ref=f9e458]:
+              - link "Accessibility" [ref=f9e459] [cursor=pointer]:
+                - /url: /support/accessibility.html
+        - generic [ref=f9e460]:
+          - list [ref=f9e461]:
+            - listitem [ref=f9e462]:
+              - link "Subscribe to Drugs.com newsletters" [ref=f9e463] [cursor=pointer]:
+                - /url: /newsletters/
+            - listitem [ref=f9e467]:
+              - link "Follow Drugs.com on Facebook" [ref=f9e468] [cursor=pointer]:
+                - /url: //www.facebook.com/Drugscom
+            - listitem [ref=f9e472]:
+              - link "Follow Drugs.com on X (Twitter)" [ref=f9e473] [cursor=pointer]:
+                - /url: //x.com/drugscom
+            - listitem [ref=f9e477]:
+              - link "Follow Drugs.com on Instagram" [ref=f9e478] [cursor=pointer]:
+                - /url: //www.instagram.com/drugs.com_official/
+            - listitem [ref=f9e482]:
+              - link "Follow Drugs.com on YouTube" [ref=f9e483] [cursor=pointer]:
+                - /url: //www.youtube.com/user/drugscom
+            - listitem [ref=f9e487]:
+              - link "Follow Drugs.com on Pinterest" [ref=f9e488] [cursor=pointer]:
+                - /url: //www.pinterest.com/drugscom/
+          - paragraph [ref=f9e492]:
+            - link "Subscribe to our newsletter" [ref=f9e493] [cursor=pointer]:
+              - /url: /newsletters/
+            - text: for the latest medication news, new drug approvals and FDA alerts.
+      - generic [ref=f9e494]:
+        - strong [ref=f9e495]: Drugs.com
+        - text: provides accurate and independent information on more than 24,000 prescription drugs, over-the-counter medicines and natural products. This material is provided for educational purposes only and is not intended for medical advice, diagnosis or treatment. Data sources include Micromedex (updated Aug 2, 2026), Cerner Multum™ (updated Aug 9, 2026), ASHP (updated Aug 10, 2026) and others.
+      - generic [ref=f9e496]:
+        - generic [ref=f9e497]:
+          - link [ref=f9e498] [cursor=pointer]:
+            - /url: //privacy.truste.com/privacy-seal/validation?rid=d18cba4a-afc4-4863-af81-8262bb120271
+            - img "Certified by TRUSTe" [ref=f9e499]
+          - img "Verified by TAG" [ref=f9e500]
+          - link [ref=f9e501] [cursor=pointer]:
+            - /url: //aacihealthcare.com/certificates/c173-2022-trust-us/
+            - img "This website is certified by AACI. Click to verify." [ref=f9e502]
+          - link [ref=f9e503] [cursor=pointer]:
+            - /url: /support/privacy/advertising.html
+            - img "AdChoices - Ad privacy information" [ref=f9e504]
+        - generic [ref=f9e505]: Copyright © 2000-2026 Drugs.com. All rights reserved.

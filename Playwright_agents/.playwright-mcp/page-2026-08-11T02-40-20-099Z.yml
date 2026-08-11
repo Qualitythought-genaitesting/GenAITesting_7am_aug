@@ -1,0 +1,410 @@
+- generic [active] [ref=f10e1]:
+  - link "Skip to main content" [ref=f10e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=f10e3]:
+    - generic [ref=f10e4]:
+      - link [ref=f10e6] [cursor=pointer]:
+        - /url: //www.drugs.com/
+        - img "Drugs.com - Go to homepage" [ref=f10e7]
+      - search [ref=f10e8]:
+        - generic [ref=f10e9]:
+          - generic [ref=f10e10]:
+            - generic [ref=f10e11]: Search Drugs.com
+            - textbox "Search Drugs.com" [ref=f10e12]:
+              - /placeholder: Search
+          - generic [ref=f10e13]:
+            - button "All" [ref=f10e14] [cursor=pointer]
+            - generic:
+              - generic [ref=f10e18]: Select the section you want to search in
+              - combobox "Select the section you want to search in" [ref=f10e19]:
+                - option "All" [selected]
+                - option "Consumer"
+                - option "Professional"
+                - option "Pill ID"
+                - option "Interactions"
+                - option "News and alerts"
+                - option "Care notes"
+                - option "Natural products"
+          - button "Search" [ref=f10e20] [cursor=pointer]
+        - navigation [ref=f10e24]:
+          - text: "Browse medications:"
+          - list [ref=f10e25]:
+            - listitem [ref=f10e26]:
+              - link "a" [ref=f10e27] [cursor=pointer]:
+                - /url: /alpha/a.html
+            - listitem [ref=f10e28]:
+              - link "b" [ref=f10e29] [cursor=pointer]:
+                - /url: /alpha/b.html
+            - listitem [ref=f10e30]:
+              - link "c" [ref=f10e31] [cursor=pointer]:
+                - /url: /alpha/c.html
+            - listitem [ref=f10e32]:
+              - link "d" [ref=f10e33] [cursor=pointer]:
+                - /url: /alpha/d.html
+            - listitem [ref=f10e34]:
+              - link "e" [ref=f10e35] [cursor=pointer]:
+                - /url: /alpha/e.html
+            - listitem [ref=f10e36]:
+              - link "f" [ref=f10e37] [cursor=pointer]:
+                - /url: /alpha/f.html
+            - listitem [ref=f10e38]:
+              - link "g" [ref=f10e39] [cursor=pointer]:
+                - /url: /alpha/g.html
+            - listitem [ref=f10e40]:
+              - link "h" [ref=f10e41] [cursor=pointer]:
+                - /url: /alpha/h.html
+            - listitem [ref=f10e42]:
+              - link "i" [ref=f10e43] [cursor=pointer]:
+                - /url: /alpha/i.html
+            - listitem [ref=f10e44]:
+              - link "j" [ref=f10e45] [cursor=pointer]:
+                - /url: /alpha/j.html
+            - listitem [ref=f10e46]:
+              - link "k" [ref=f10e47] [cursor=pointer]:
+                - /url: /alpha/k.html
+            - listitem [ref=f10e48]:
+              - link "l" [ref=f10e49] [cursor=pointer]:
+                - /url: /alpha/l.html
+            - listitem [ref=f10e50]:
+              - link "m" [ref=f10e51] [cursor=pointer]:
+                - /url: /alpha/m.html
+            - listitem [ref=f10e52]:
+              - link "n" [ref=f10e53] [cursor=pointer]:
+                - /url: /alpha/n.html
+            - listitem [ref=f10e54]:
+              - link "o" [ref=f10e55] [cursor=pointer]:
+                - /url: /alpha/o.html
+            - listitem [ref=f10e56]:
+              - link "p" [ref=f10e57] [cursor=pointer]:
+                - /url: /alpha/p.html
+            - listitem [ref=f10e58]:
+              - link "q" [ref=f10e59] [cursor=pointer]:
+                - /url: /alpha/q.html
+            - listitem [ref=f10e60]:
+              - link "r" [ref=f10e61] [cursor=pointer]:
+                - /url: /alpha/r.html
+            - listitem [ref=f10e62]:
+              - link "s" [ref=f10e63] [cursor=pointer]:
+                - /url: /alpha/s.html
+            - listitem [ref=f10e64]:
+              - link "t" [ref=f10e65] [cursor=pointer]:
+                - /url: /alpha/t.html
+            - listitem [ref=f10e66]:
+              - link "u" [ref=f10e67] [cursor=pointer]:
+                - /url: /alpha/u.html
+            - listitem [ref=f10e68]:
+              - link "v" [ref=f10e69] [cursor=pointer]:
+                - /url: /alpha/v.html
+            - listitem [ref=f10e70]:
+              - link "w" [ref=f10e71] [cursor=pointer]:
+                - /url: /alpha/w.html
+            - listitem [ref=f10e72]:
+              - link "x" [ref=f10e73] [cursor=pointer]:
+                - /url: /alpha/x.html
+            - listitem [ref=f10e74]:
+              - link "y" [ref=f10e75] [cursor=pointer]:
+                - /url: /alpha/y.html
+            - listitem [ref=f10e76]:
+              - link "z" [ref=f10e77] [cursor=pointer]:
+                - /url: /alpha/z.html
+            - listitem [ref=f10e78]:
+              - link "0-9" [ref=f10e79] [cursor=pointer]:
+                - /url: /alpha/0-9.html
+          - link "Advanced Search" [ref=f10e80] [cursor=pointer]:
+            - /url: /search_advanced.html
+      - navigation "Account navigation" [ref=f10e81]:
+        - link "Register" [ref=f10e82] [cursor=pointer]:
+          - /url: /account/register/
+        - link "Sign in" [ref=f10e83] [cursor=pointer]:
+          - /url: /account/login/
+    - navigation "Main navigation" [ref=f10e85]:
+      - list [ref=f10e86]:
+        - listitem [ref=f10e87]:
+          - link "Drugs A-Z" [ref=f10e88] [cursor=pointer]:
+            - /url: /drug_information.html
+        - listitem [ref=f10e89]:
+          - link "Pill Identifier" [ref=f10e90] [cursor=pointer]:
+            - /url: /pill_identification.html
+        - listitem [ref=f10e91]:
+          - link "Drug Interaction Checker" [ref=f10e92] [cursor=pointer]:
+            - /url: /drug_interactions.html
+        - listitem [ref=f10e93]:
+          - link "Compare Drugs" [ref=f10e94] [cursor=pointer]:
+            - /url: /compare/
+        - listitem [ref=f10e95]:
+          - link "News" [ref=f10e96] [cursor=pointer]:
+            - /url: /news.html
+        - listitem [ref=f10e97]:
+          - link "Pro Edition" [ref=f10e98] [cursor=pointer]:
+            - /url: /professionals.html
+        - listitem [ref=f10e99]:
+          - link "More Resources …" [ref=f10e100] [cursor=pointer]:
+            - /url: /sitemap.html
+            - text: More
+            - generic [ref=f10e101]: Resources
+            - text: …
+        - listitem [ref=f10e102]:
+          - link "Help & Support" [ref=f10e103] [cursor=pointer]:
+            - /url: /support/
+  - generic [ref=f10e104]: Advertisement
+  - main [ref=f10e107]:
+    - generic [ref=f10e108]:
+      - heading "Support Center" [level=1] [ref=f10e109]
+      - generic [ref=f10e111]:
+        - generic [ref=f10e114]:
+          - heading "Emergency information" [level=2] [ref=f10e115]
+          - paragraph [ref=f10e116]:
+            - text: If you need immediate medical assistance, call
+            - strong [ref=f10e117]: "911"
+            - text: or go to your closest emergency room.
+          - paragraph [ref=f10e118]:
+            - text: For a suspected overdose, find a
+            - link "poison control center" [ref=f10e119] [cursor=pointer]:
+              - /url: /support/poison-control.html
+            - text: or call
+            - strong [ref=f10e120]: 1-800-222-1222
+            - text: .
+        - generic [ref=f10e126]:
+          - heading "Symptoms or side effects?" [level=2] [ref=f10e127]
+          - paragraph [ref=f10e128]: Find possible causes for your symptoms or review medication side effects.
+          - list [ref=f10e129]:
+            - listitem [ref=f10e130]:
+              - link "Check your symptoms" [ref=f10e131] [cursor=pointer]:
+                - /url: /symptom-checker/
+            - listitem [ref=f10e132]:
+              - link "Explore drug side effects" [ref=f10e133] [cursor=pointer]:
+                - /url: /sfx/
+        - generic [ref=f10e139]:
+          - heading "Drug interaction concerns?" [level=2] [ref=f10e140]
+          - paragraph [ref=f10e141]: Check interactions with multiple drugs, supplements, vaccines, diseases, food and alcohol.
+          - list [ref=f10e142]:
+            - listitem [ref=f10e143]:
+              - link "Check interactions between your drugs" [ref=f10e144] [cursor=pointer]:
+                - /url: /drug_interactions.html
+            - listitem [ref=f10e145]:
+              - link "Read common interaction FAQs" [ref=f10e146] [cursor=pointer]:
+                - /url: /drug_interactions.html#interaction-faqs
+        - generic [ref=f10e152]:
+          - heading "Have a medical question?" [level=2] [ref=f10e153]
+          - paragraph [ref=f10e154]: Post your own question to our community or explore support groups to connect with others.
+          - list [ref=f10e155]:
+            - listitem [ref=f10e156]:
+              - link "Ask a question" [ref=f10e157] [cursor=pointer]:
+                - /url: /answers/ask/
+            - listitem [ref=f10e158]:
+              - link "Join a support group" [ref=f10e159] [cursor=pointer]:
+                - /url: /answers/support-group/
+      - generic [ref=f10e163]:
+        - generic [ref=f10e164]:
+          - generic [ref=f10e165]:
+            - heading "Common questions" [level=2] [ref=f10e166]
+            - list [ref=f10e167]:
+              - listitem [ref=f10e168]:
+                - link "Are expired drugs safe to take?" [ref=f10e169] [cursor=pointer]:
+                  - /url: /article/drug-expiration-dates.html
+              - listitem [ref=f10e170]:
+                - link "How do I dispose of medications safely?" [ref=f10e171] [cursor=pointer]:
+                  - /url: /article/medication-disposal.html
+              - listitem [ref=f10e172]:
+                - link "Is pill splitting safe for saving costs?" [ref=f10e173] [cursor=pointer]:
+                  - /url: /article/pill-splitting.html
+              - listitem [ref=f10e174]:
+                - link "What do prescription abbreviations mean?" [ref=f10e175] [cursor=pointer]:
+                  - /url: /article/prescription-abbreviations.html
+              - listitem [ref=f10e176]:
+                - link "What is a drug Half-life?" [ref=f10e177] [cursor=pointer]:
+                  - /url: /article/drug-half-life.html
+          - generic [ref=f10e178]:
+            - heading "Account management" [level=2] [ref=f10e179]
+            - list [ref=f10e180]:
+              - listitem [ref=f10e181]:
+                - link "I can't sign in to my account?" [ref=f10e182] [cursor=pointer]:
+                  - /url: /support/faq.html#signin
+              - listitem [ref=f10e183]:
+                - link "How to unsubscribe from emails" [ref=f10e184] [cursor=pointer]:
+                  - /url: /support/faq.html#unsubscribe
+              - listitem [ref=f10e185]:
+                - link "How can I change My Med List member profile?" [ref=f10e186] [cursor=pointer]:
+                  - /url: /support/faq.html#profile
+              - listitem [ref=f10e187]:
+                - link "I did not receive my confirmation email or newsletter?" [ref=f10e188] [cursor=pointer]:
+                  - /url: /support/email-faq.html
+        - paragraph [ref=f10e189]:
+          - link "View more FAQs" [ref=f10e190] [cursor=pointer]:
+            - /url: /support/faq.html
+      - generic [ref=f10e192]:
+        - generic [ref=f10e193]:
+          - heading "Identify your medication" [level=2] [ref=f10e194]
+          - paragraph [ref=f10e195]: Need help to identify an unknown pill? Use Pill Identifier to match your pill by imprint, shape, or color.
+          - list [ref=f10e196]:
+            - listitem [ref=f10e197]:
+              - link "Identify pills by imprint" [ref=f10e198] [cursor=pointer]:
+                - /url: /imprints.php
+            - listitem [ref=f10e199]:
+              - link "Imprint code FAQs" [ref=f10e200] [cursor=pointer]:
+                - /url: /article/imprint-codes.html
+        - generic [ref=f10e201]:
+          - heading "Search assistance" [level=2] [ref=f10e202]
+          - paragraph [ref=f10e203]: Can't find a medication? Search Drugs.com by site section or by medication misspelling.
+          - list [ref=f10e204]:
+            - listitem [ref=f10e205]:
+              - link "Advanced search" [ref=f10e206] [cursor=pointer]:
+                - /url: /search_advanced.html
+            - listitem [ref=f10e207]:
+              - link "Phonetic search" [ref=f10e208] [cursor=pointer]:
+                - /url: /search-wildcard-phonetic.html
+              - text: (medication spelling assistance)
+      - generic [ref=f10e209]:
+        - heading "Feedback & reporting" [level=2] [ref=f10e210]
+        - generic [ref=f10e211]:
+          - generic [ref=f10e212]:
+            - heading "Content inaccuracy" [level=3] [ref=f10e213]
+            - paragraph [ref=f10e214]:
+              - link "Let us know" [ref=f10e215] [cursor=pointer]:
+                - /url: /support/contact-form.html?topic=problem
+              - text: if you spot incorrect or outdated information.
+          - generic [ref=f10e216]:
+            - heading "Report side effects" [level=3] [ref=f10e217]
+            - paragraph [ref=f10e218]:
+              - text: Side effects can be reported directly to the FDA by following this
+              - link "guide" [ref=f10e219] [cursor=pointer]:
+                - /url: /fda-consumer/your-guide-to-reporting-problems-to-fda-71.html
+              - text: .
+          - generic [ref=f10e220]:
+            - heading "Feedback or suggestion" [level=3] [ref=f10e221]
+            - paragraph [ref=f10e222]:
+              - text: Use our
+              - link "contact form" [ref=f10e223] [cursor=pointer]:
+                - /url: /support/contact-form.html?topic=feedback
+              - text: to post your feedback.
+          - generic [ref=f10e224]:
+            - heading "Submit product information" [level=3] [ref=f10e225]
+            - paragraph [ref=f10e226]:
+              - link "Submit info" [ref=f10e227] [cursor=pointer]:
+                - /url: /support/content-submission.html
+              - text: for updates on new medications or products.
+          - generic [ref=f10e228]:
+            - heading "Newsletter support" [level=3] [ref=f10e229]
+            - paragraph [ref=f10e230]:
+              - link "View guides" [ref=f10e231] [cursor=pointer]:
+                - /url: /support/email-faq.html
+              - text: for newsletter subscriptions across different email service providers.
+          - generic [ref=f10e232]:
+            - heading "Additional support" [level=3] [ref=f10e233]
+            - paragraph [ref=f10e234]:
+              - text: For any other problems or issues, please
+              - link "contact our support team" [ref=f10e235] [cursor=pointer]:
+                - /url: /support/contact.html
+              - text: .
+      - generic [ref=f10e236]:
+        - heading "Safety & privacy" [level=2] [ref=f10e237]
+        - list [ref=f10e238]:
+          - listitem [ref=f10e239]:
+            - link "Responsible disclosure policy" [ref=f10e240] [cursor=pointer]:
+              - /url: /support/responsible-disclosure-policy.html
+          - listitem [ref=f10e241]:
+            - link "Terms of use" [ref=f10e242] [cursor=pointer]:
+              - /url: /support/terms.html
+          - listitem [ref=f10e243]:
+            - link "Editorial policy" [ref=f10e244] [cursor=pointer]:
+              - /url: /support/editorial-policy.html
+          - listitem [ref=f10e245]:
+            - link "Privacy policy" [ref=f10e246] [cursor=pointer]:
+              - /url: /support/privacy.html
+  - contentinfo [ref=f10e247]:
+    - generic [ref=f10e248]:
+      - generic [ref=f10e249]:
+        - generic [ref=f10e250]:
+          - generic [ref=f10e251]: Drugs.com Mobile App
+          - paragraph [ref=f10e252]: Access drug & treatment information, identify pills, check interactions and set up personal medication records.
+          - generic [ref=f10e253]:
+            - link "Download the Medication Guide app on iTunes" [ref=f10e254] [cursor=pointer]:
+              - /url: //apps.apple.com/us/app/drugs-com-medication-guide/id599471042?platform=iphone
+            - link "Download the Medication Guide app on the Google Play store" [ref=f10e257] [cursor=pointer]:
+              - /url: //play.google.com/store/apps/details?id=com.drugscom.app
+        - img "Drugs.com mobile app" [ref=f10e262]
+      - navigation "Informational and social site links" [ref=f10e263]:
+        - link "Drugs.com" [ref=f10e265] [cursor=pointer]:
+          - /url: /
+        - generic [ref=f10e268]:
+          - generic [ref=f10e269]: About
+          - list [ref=f10e270]:
+            - listitem [ref=f10e271]:
+              - link "About Drugs.com" [ref=f10e272] [cursor=pointer]:
+                - /url: /support/about.html
+            - listitem [ref=f10e273]:
+              - link "Advertising policy" [ref=f10e274] [cursor=pointer]:
+                - /url: /support/advertising.html
+            - listitem [ref=f10e275]:
+              - link "Attribution & citations" [ref=f10e276] [cursor=pointer]:
+                - /url: /support/citations.html
+            - listitem [ref=f10e277]:
+              - link "Drugs.com Podcast" [ref=f10e278] [cursor=pointer]:
+                - /url: //podcasts.drugs.com/
+        - generic [ref=f10e279]:
+          - generic [ref=f10e280]: Terms & privacy
+          - list [ref=f10e281]:
+            - listitem [ref=f10e282]:
+              - link "Terms of use" [ref=f10e283] [cursor=pointer]:
+                - /url: /support/terms.html
+            - listitem [ref=f10e284]:
+              - link "Editorial policy" [ref=f10e285] [cursor=pointer]:
+                - /url: /support/editorial-policy.html
+            - listitem [ref=f10e286]:
+              - link "Privacy policy" [ref=f10e287] [cursor=pointer]:
+                - /url: /support/privacy.html
+        - generic [ref=f10e288]:
+          - generic [ref=f10e289]: Support
+          - list [ref=f10e290]:
+            - listitem [ref=f10e291]:
+              - link "Help center" [ref=f10e292] [cursor=pointer]:
+                - /url: /support/
+            - listitem [ref=f10e293]:
+              - link "Sitemap" [ref=f10e294] [cursor=pointer]:
+                - /url: /sitemap.html
+            - listitem [ref=f10e295]:
+              - link "Contact us" [ref=f10e296] [cursor=pointer]:
+                - /url: /support/contact.html
+            - listitem [ref=f10e297]:
+              - link "Accessibility" [ref=f10e298] [cursor=pointer]:
+                - /url: /support/accessibility.html
+        - generic [ref=f10e299]:
+          - list [ref=f10e300]:
+            - listitem [ref=f10e301]:
+              - link "Subscribe to Drugs.com newsletters" [ref=f10e302] [cursor=pointer]:
+                - /url: /newsletters/
+            - listitem [ref=f10e306]:
+              - link "Follow Drugs.com on Facebook" [ref=f10e307] [cursor=pointer]:
+                - /url: //www.facebook.com/Drugscom
+            - listitem [ref=f10e311]:
+              - link "Follow Drugs.com on X (Twitter)" [ref=f10e312] [cursor=pointer]:
+                - /url: //x.com/drugscom
+            - listitem [ref=f10e316]:
+              - link "Follow Drugs.com on Instagram" [ref=f10e317] [cursor=pointer]:
+                - /url: //www.instagram.com/drugs.com_official/
+            - listitem [ref=f10e321]:
+              - link "Follow Drugs.com on YouTube" [ref=f10e322] [cursor=pointer]:
+                - /url: //www.youtube.com/user/drugscom
+            - listitem [ref=f10e326]:
+              - link "Follow Drugs.com on Pinterest" [ref=f10e327] [cursor=pointer]:
+                - /url: //www.pinterest.com/drugscom/
+          - paragraph [ref=f10e331]:
+            - link "Subscribe to our newsletter" [ref=f10e332] [cursor=pointer]:
+              - /url: /newsletters/
+            - text: for the latest medication news, new drug approvals and FDA alerts.
+      - generic [ref=f10e333]:
+        - strong [ref=f10e334]: Drugs.com
+        - text: provides accurate and independent information on more than 24,000 prescription drugs, over-the-counter medicines and natural products. This material is provided for educational purposes only and is not intended for medical advice, diagnosis or treatment. Data sources include Micromedex (updated Aug 2, 2026), Cerner Multum™ (updated Aug 9, 2026), ASHP (updated Aug 10, 2026) and others.
+      - generic [ref=f10e335]:
+        - generic [ref=f10e336]:
+          - link [ref=f10e337] [cursor=pointer]:
+            - /url: //privacy.truste.com/privacy-seal/validation?rid=d18cba4a-afc4-4863-af81-8262bb120271
+            - img "Certified by TRUSTe" [ref=f10e338]
+          - img "Verified by TAG" [ref=f10e339]
+          - link [ref=f10e340] [cursor=pointer]:
+            - /url: //aacihealthcare.com/certificates/c173-2022-trust-us/
+            - img "This website is certified by AACI. Click to verify." [ref=f10e341]
+          - link [ref=f10e342] [cursor=pointer]:
+            - /url: /support/privacy/advertising.html
+            - img "AdChoices - Ad privacy information" [ref=f10e343]
+        - generic [ref=f10e344]: Copyright © 2000-2026 Drugs.com. All rights reserved.

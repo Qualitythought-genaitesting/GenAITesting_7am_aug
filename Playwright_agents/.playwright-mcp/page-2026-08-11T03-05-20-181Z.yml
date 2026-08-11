@@ -1,0 +1,1112 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link [ref=e7] [cursor=pointer]:
+          - /url: //www.drugs.com/
+          - img "Drugs.com - Go to homepage" [ref=e8]
+        - navigation "Main navigation" [ref=e9]:
+          - list [ref=e10]:
+            - listitem [ref=e11]:
+              - link "Drugs A-Z" [ref=e12] [cursor=pointer]:
+                - /url: /drug_information.html
+            - listitem [ref=e13]:
+              - link "Pill Identifier" [ref=e14] [cursor=pointer]:
+                - /url: /pill_identification.html
+            - listitem [ref=e15]:
+              - link "Interaction Checker" [ref=e16] [cursor=pointer]:
+                - /url: /drug_interactions.html
+            - listitem [ref=e17]:
+              - link "News" [ref=e18] [cursor=pointer]:
+                - /url: /news.html
+            - listitem [ref=e19]:
+              - link "Pro Edition" [ref=e20] [cursor=pointer]:
+                - /url: /professionals.html
+            - listitem [ref=e21]:
+              - link "More Resources …" [ref=e22] [cursor=pointer]:
+                - /url: /sitemap.html
+                - text: More
+                - generic [ref=e23]: Resources
+                - text: …
+        - navigation "Account navigation" [ref=e24]:
+          - link "Register" [ref=e25] [cursor=pointer]:
+            - /url: /account/register/
+          - link "Sign in" [ref=e26] [cursor=pointer]:
+            - /url: /account/login/
+      - generic: …
+    - generic [ref=e27]:
+      - heading "Know more. Be sure." [level=1] [ref=e28]
+      - paragraph [ref=e29]: Drug and health information, from pharmacists you can trust.
+      - search [ref=e30]:
+        - generic [ref=e31]:
+          - generic [ref=e32]:
+            - generic [ref=e33]: Search Drugs.com
+            - textbox "Search Drugs.com" [ref=e34]:
+              - /placeholder: Enter a drug name, condition, pill imprint, etc.
+          - button "Search" [ref=e35] [cursor=pointer]
+      - generic [ref=e39]:
+        - generic [ref=e40]: "Trending searches:"
+        - link "Ozempic" [ref=e41] [cursor=pointer]:
+          - /url: /ozempic.html
+        - link "Mounjaro" [ref=e42] [cursor=pointer]:
+          - /url: /mounjaro.html
+        - link "Ubrelvy" [ref=e43] [cursor=pointer]:
+          - /url: /ubrelvy.html
+        - link "Zepbound" [ref=e44] [cursor=pointer]:
+          - /url: /zepbound.html
+        - link "Botox" [ref=e45] [cursor=pointer]:
+          - /url: /botox.html
+        - link "Dupixent" [ref=e46] [cursor=pointer]:
+          - /url: /dupixent.html
+        - link "Foundayo" [ref=e47] [cursor=pointer]:
+          - /url: /foundayo.html
+        - link "GLP-1" [ref=e48] [cursor=pointer]:
+          - /url: /health/glp-1s/
+  - generic [ref=e50]:
+    - list [ref=e51]:
+      - listitem [ref=e52]:
+        - link "My Med List" [ref=e53] [cursor=pointer]:
+          - /url: /mednotes/
+      - listitem [ref=e55]:
+        - link "Pill Identifier" [ref=e56] [cursor=pointer]:
+          - /url: /pill_identification.html
+      - listitem [ref=e58]:
+        - link "Drug Interaction Checker" [ref=e59] [cursor=pointer]:
+          - /url: /drug_interactions.html
+      - listitem [ref=e61]:
+        - link "Drugs & Medications" [ref=e62] [cursor=pointer]:
+          - /url: /drug_information.html
+      - listitem [ref=e64]:
+        - link "Symptom Checker" [ref=e65] [cursor=pointer]:
+          - /url: /symptom-checker/
+      - listitem [ref=e67]:
+        - link "Side Effects" [ref=e68] [cursor=pointer]:
+          - /url: /sfx/
+      - listitem [ref=e70]:
+        - link "Conditions & Diseases" [ref=e71] [cursor=pointer]:
+          - /url: /alpha/condition/
+      - listitem [ref=e73]:
+        - link "Treatment Guides" [ref=e74] [cursor=pointer]:
+          - /url: /medical_conditions.html
+      - listitem [ref=e76]:
+        - link "Compare Drugs" [ref=e77] [cursor=pointer]:
+          - /url: /compare/
+      - listitem [ref=e79]:
+        - link "Discount Card" [ref=e80] [cursor=pointer]:
+          - /url: /discount-card/
+      - listitem [ref=e82]:
+        - link "FDA Alerts" [ref=e83] [cursor=pointer]:
+          - /url: /fda_alerts.html
+      - listitem [ref=e85]:
+        - link "Price Guide" [ref=e86] [cursor=pointer]:
+          - /url: /price-guide/
+      - listitem [ref=e88]:
+        - link "Phonetic Search" [ref=e89] [cursor=pointer]:
+          - /url: /search-wildcard-phonetic.html
+      - listitem [ref=e91]:
+        - link "Health Professionals" [ref=e92] [cursor=pointer]:
+          - /url: /professionals.html
+    - button "Previous" [ref=e94] [cursor=pointer]
+    - button "Next" [ref=e98] [cursor=pointer]
+  - generic [ref=e104]:
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - tablist "Browse drugs and conditions A-Z" [ref=e108]:
+          - tab "Browse Drugs" [selected] [ref=e109] [cursor=pointer]
+          - tab "Conditions" [ref=e110] [cursor=pointer]
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "Symptoms" [ref=e113] [cursor=pointer]:
+              - /url: /symptom-checker/
+      - tabpanel "Browse Drugs" [ref=e114]:
+        - navigation "Drug list navigation by first letter" [ref=e115]:
+          - list [ref=e116]:
+            - listitem [ref=e117]:
+              - 'link "Browse drugs by letter: a" [ref=e118] [cursor=pointer]':
+                - /url: /alpha/a.html
+                - text: A
+            - listitem [ref=e119]:
+              - 'link "Browse drugs by letter: b" [ref=e120] [cursor=pointer]':
+                - /url: /alpha/b.html
+                - text: B
+            - listitem [ref=e121]:
+              - 'link "Browse drugs by letter: c" [ref=e122] [cursor=pointer]':
+                - /url: /alpha/c.html
+                - text: C
+            - listitem [ref=e123]:
+              - 'link "Browse drugs by letter: d" [ref=e124] [cursor=pointer]':
+                - /url: /alpha/d.html
+                - text: D
+            - listitem [ref=e125]:
+              - 'link "Browse drugs by letter: e" [ref=e126] [cursor=pointer]':
+                - /url: /alpha/e.html
+                - text: E
+            - listitem [ref=e127]:
+              - 'link "Browse drugs by letter: f" [ref=e128] [cursor=pointer]':
+                - /url: /alpha/f.html
+                - text: F
+            - listitem [ref=e129]:
+              - 'link "Browse drugs by letter: g" [ref=e130] [cursor=pointer]':
+                - /url: /alpha/g.html
+                - text: G
+            - listitem [ref=e131]:
+              - 'link "Browse drugs by letter: h" [ref=e132] [cursor=pointer]':
+                - /url: /alpha/h.html
+                - text: H
+            - listitem [ref=e133]:
+              - 'link "Browse drugs by letter: i" [ref=e134] [cursor=pointer]':
+                - /url: /alpha/i.html
+                - text: I
+            - listitem [ref=e135]:
+              - 'link "Browse drugs by letter: j" [ref=e136] [cursor=pointer]':
+                - /url: /alpha/j.html
+                - text: J
+            - listitem [ref=e137]:
+              - 'link "Browse drugs by letter: k" [ref=e138] [cursor=pointer]':
+                - /url: /alpha/k.html
+                - text: K
+            - listitem [ref=e139]:
+              - 'link "Browse drugs by letter: l" [ref=e140] [cursor=pointer]':
+                - /url: /alpha/l.html
+                - text: L
+            - listitem [ref=e141]:
+              - 'link "Browse drugs by letter: m" [ref=e142] [cursor=pointer]':
+                - /url: /alpha/m.html
+                - text: M
+            - listitem [ref=e143]:
+              - 'link "Browse drugs by letter: n" [ref=e144] [cursor=pointer]':
+                - /url: /alpha/n.html
+                - text: "N"
+            - listitem [ref=e145]:
+              - 'link "Browse drugs by letter: o" [ref=e146] [cursor=pointer]':
+                - /url: /alpha/o.html
+                - text: O
+            - listitem [ref=e147]:
+              - 'link "Browse drugs by letter: p" [ref=e148] [cursor=pointer]':
+                - /url: /alpha/p.html
+                - text: P
+            - listitem [ref=e149]:
+              - 'link "Browse drugs by letter: q" [ref=e150] [cursor=pointer]':
+                - /url: /alpha/q.html
+                - text: Q
+            - listitem [ref=e151]:
+              - 'link "Browse drugs by letter: r" [ref=e152] [cursor=pointer]':
+                - /url: /alpha/r.html
+                - text: R
+            - listitem [ref=e153]:
+              - 'link "Browse drugs by letter: s" [ref=e154] [cursor=pointer]':
+                - /url: /alpha/s.html
+                - text: S
+            - listitem [ref=e155]:
+              - 'link "Browse drugs by letter: t" [ref=e156] [cursor=pointer]':
+                - /url: /alpha/t.html
+                - text: T
+            - listitem [ref=e157]:
+              - 'link "Browse drugs by letter: u" [ref=e158] [cursor=pointer]':
+                - /url: /alpha/u.html
+                - text: U
+            - listitem [ref=e159]:
+              - 'link "Browse drugs by letter: v" [ref=e160] [cursor=pointer]':
+                - /url: /alpha/v.html
+                - text: V
+            - listitem [ref=e161]:
+              - 'link "Browse drugs by letter: w" [ref=e162] [cursor=pointer]':
+                - /url: /alpha/w.html
+                - text: W
+            - listitem [ref=e163]:
+              - 'link "Browse drugs by letter: x" [ref=e164] [cursor=pointer]':
+                - /url: /alpha/x.html
+                - text: X
+            - listitem [ref=e165]:
+              - 'link "Browse drugs by letter: y" [ref=e166] [cursor=pointer]':
+                - /url: /alpha/y.html
+                - text: "Y"
+            - listitem [ref=e167]:
+              - 'link "Browse drugs by letter: z" [ref=e168] [cursor=pointer]':
+                - /url: /alpha/z.html
+                - text: Z
+            - listitem [ref=e169]:
+              - 'link "Browse drugs by numbers: 0-9" [ref=e170] [cursor=pointer]':
+                - /url: /alpha/0-9.html
+                - text: 0-9
+            - listitem [ref=e171]:
+              - link "Advanced Search" [ref=e172] [cursor=pointer]:
+                - /url: /search_advanced.html
+        - paragraph [ref=e173]:
+          - text: "Browse A-Z:"
+          - link "drugs" [ref=e174] [cursor=pointer]:
+            - /url: /drug_information.html
+          - text: ","
+          - link "treatments" [ref=e175] [cursor=pointer]:
+            - /url: /medical_conditions.html
+          - text: ","
+          - link "conditions" [ref=e176] [cursor=pointer]:
+            - /url: /alpha/condition/
+          - text: ","
+          - link "drug classes" [ref=e177] [cursor=pointer]:
+            - /url: /drug-class/
+          - text: or
+          - link "symptoms" [ref=e178] [cursor=pointer]:
+            - /url: /symptom-checker/
+    - generic [ref=e179]:
+      - list [ref=e180]:
+        - listitem [ref=e181]:
+          - generic [ref=e182]: Browse by Site Section
+      - list [ref=e183]:
+        - listitem [ref=e184]:
+          - link "Drugs A-Z" [ref=e185] [cursor=pointer]:
+            - /url: /drug_information.html
+          - text: (
+          - link "Español" [ref=e186] [cursor=pointer]:
+            - /url: /mtm_esp/
+          - text: )
+        - listitem [ref=e187]:
+          - link "Side Effects Checker" [ref=e188] [cursor=pointer]:
+            - /url: /sfx/
+        - listitem [ref=e189]:
+          - link "Dosage Guidelines" [ref=e190] [cursor=pointer]:
+            - /url: /dosage/
+        - listitem [ref=e191]:
+          - link "Manage your Meds" [ref=e192] [cursor=pointer]:
+            - /url: /mednotes/
+        - listitem [ref=e193]:
+          - link "Mobile Apps" [ref=e194] [cursor=pointer]:
+            - /url: /apps/
+        - listitem [ref=e195]:
+          - link "Health Professionals" [ref=e196] [cursor=pointer]:
+            - /url: /professionals.html
+        - listitem [ref=e197]:
+          - link "Medical News" [ref=e198] [cursor=pointer]:
+            - /url: /news.html
+        - listitem [ref=e199]:
+          - link "FDA Alerts" [ref=e200] [cursor=pointer]:
+            - /url: /fda_alerts.html
+        - listitem [ref=e201]:
+          - link "New Drugs" [ref=e202] [cursor=pointer]:
+            - /url: /newdrugs.html
+        - listitem [ref=e203]:
+          - link "More Resources" [ref=e204] [cursor=pointer]:
+            - /url: /sitemap.html
+            - text: More
+            - generic [ref=e205]: Resources
+  - generic [ref=e208]:
+    - link "FDA Medwatch Alerts Fresenius Kabi Issues Recall of One Lot of Morphine Sulfate Injection, USP in a Simplist® Prefilled Syringe Due to Labeling Mix-Up" [ref=e210] [cursor=pointer]:
+      - /url: /fda/fresenius-kabi-issues-recall-one-lot-morphine-sulfate-usp-simplist-prefilled-syringe-due-labeling-14824.html
+      - generic [ref=e212]:
+        - generic [ref=e213]: FDA Medwatch Alerts
+        - heading "Fresenius Kabi Issues Recall of One Lot of Morphine Sulfate Injection, USP in a Simplist® Prefilled Syringe Due to Labeling Mix-Up" [level=2] [ref=e214]
+    - link "New Drug Approvals FDA Grants Accelerated Approval to Tudriqev (vusolimogene oderparepvec-wtpg) in Combination with Nivolumab for Unresectable Advanced Cutaneous Melanoma" [ref=e216] [cursor=pointer]:
+      - /url: /newdrugs/fda-grants-accelerated-approval-tudriqev-vusolimogene-oderparepvec-wtpg-combination-nivolumab-6856.html
+      - generic [ref=e218]:
+        - generic [ref=e219]: New Drug Approvals
+        - heading "FDA Grants Accelerated Approval to Tudriqev (vusolimogene oderparepvec-wtpg) in Combination with Nivolumab for Unresectable Advanced Cutaneous Melanoma" [level=2] [ref=e220]
+    - link "Medical News Zepbound Lowers Heart Attack, Stroke Risk Among Type 2 Diabetics" [ref=e222] [cursor=pointer]:
+      - /url: /news/zepbound-lowers-heart-attack-stroke-risk-among-type-2-diabetics-130931.html
+      - generic [ref=e224]:
+        - generic [ref=e225]: Medical News
+        - heading "Zepbound Lowers Heart Attack, Stroke Risk Among Type 2 Diabetics" [level=2] [ref=e226]
+  - main [ref=e227]:
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - paragraph [ref=e231]: Drugs.com is the most popular, comprehensive and up-to-date source of drug information online. Providing free, peer-reviewed, accurate and independent data on more than 24,000 prescription drugs, over-the-counter medicines & natural products.
+        - generic [ref=e232]:
+          - generic [ref=e234]:
+            - heading [level=2] [ref=e235]:
+              - link "FDA Grants Accelerated Approval to Tudriqev (vusolimogene oderparepvec-wtpg) in Combination with Nivolumab for Unresectable Advanced Cutaneous Melanoma" [ref=e236] [cursor=pointer]:
+                - /url: /newdrugs/fda-grants-accelerated-approval-tudriqev-vusolimogene-oderparepvec-wtpg-combination-nivolumab-6856.html
+            - paragraph [ref=e237]: "Replimune Group, Inc. (NASDAQ: REPL), a commercial stage biotechnology company pioneering the development of novel oncolytic immunotherapies,..."
+            - generic [ref=e238]:
+              - generic [ref=e239]: 4 days ago
+              - link "New Drug Approvals" [ref=e240] [cursor=pointer]:
+                - /url: /newdrugs.html
+          - generic [ref=e242]:
+            - heading [level=2] [ref=e243]:
+              - link "FDA Approves mFLUSIVA (influenza vaccine, mRNA) for the Prevention of Seasonal Influenza" [ref=e244] [cursor=pointer]:
+                - /url: /newdrugs/fda-approves-mflusiva-influenza-vaccine-mrna-prevention-seasonal-influenza-6855.html
+            - paragraph [ref=e245]: CAMBRIDGE, MA / ACCESS Newswire / August 5, 2026 / Moderna, Inc. (NASDAQ:MRNA) today announced that the U.S. Food and Drug Administration...
+            - generic [ref=e246]:
+              - generic [ref=e247]: 5 days ago
+              - link "New Drug Approvals" [ref=e248] [cursor=pointer]:
+                - /url: /newdrugs.html
+          - generic [ref=e250]:
+            - heading [level=2] [ref=e251]:
+              - link "FDA Approves Mucinex 12HR Cold & Fever Multi-Symptom (dextromethorphan, guaifenesin and naproxen) for Cold & Flu Symptoms" [ref=e252] [cursor=pointer]:
+                - /url: /newdrugs/fda-approves-mucinex-12hr-cold-fever-multi-symptom-dextromethorphan-guaifenesin-naproxen-cold-flu-6853.html
+            - paragraph [ref=e253]: "NUTLEY, N.J., AUGUST 5, 2026 – Reckitt announced today a milestone for the cold and flu category and the company: Mucinex® 12HR Cold..."
+            - generic [ref=e254]:
+              - generic [ref=e255]: 6 days ago
+              - link "New Drug Approvals" [ref=e256] [cursor=pointer]:
+                - /url: /newdrugs.html
+          - generic [ref=e258]:
+            - heading [level=2] [ref=e259]:
+              - link "FDA Approves Orzeyful (oveporexton) to Treat the Underlying Cause of Narcolepsy Type 1" [ref=e260] [cursor=pointer]:
+                - /url: /newdrugs/fda-approves-orzeyful-oveporexton-underlying-cause-narcolepsy-type-1-6854.html
+            - paragraph [ref=e261]: OSAKA, Japan and CAMBRIDGE, Massachusetts, August 5, 2026 – Takeda (TSE:4502/NYSE:TAK) announced that the U.S. Food and Drug Administration...
+            - generic [ref=e262]:
+              - generic [ref=e263]: 6 days ago
+              - link "New Drug Approvals" [ref=e264] [cursor=pointer]:
+                - /url: /newdrugs.html
+          - generic [ref=e265]:
+            - generic [ref=e266]:
+              - heading [level=2] [ref=e267]:
+                - link "CHEST Issues Guidelines for Management of Adult Bronchiectasis" [ref=e268] [cursor=pointer]:
+                  - /url: /news/chest-issues-guidelines-management-adult-bronchiectasis-130941.html
+              - paragraph [ref=e269]: New recommendations are presented for the management of adult bronchiectasis in a clinical practice guideline issued by the American College of Chest Physicians...
+              - generic [ref=e270]:
+                - generic [ref=e271]: Today
+                - link "News for Health Professionals" [ref=e272] [cursor=pointer]:
+                  - /url: /pharmanews.html
+            - figure [ref=e274]
+          - generic [ref=e275]:
+            - generic [ref=e276]:
+              - heading [level=2] [ref=e277]:
+                - link "Study IDs Dementia Risk Factors in Those Older Than 90 Years" [ref=e278] [cursor=pointer]:
+                  - /url: /news/study-ids-dementia-risk-factors-those-older-than-90-years-130942.html
+              - paragraph [ref=e279]: Dementia risk factors persist even in nonagenarians, according to a study published online Aug. 4 in The Lancet Healthy Longevity.Hilary L. Colbeth,...
+              - generic [ref=e280]:
+                - generic [ref=e281]: Today
+                - link "News for Health Professionals" [ref=e282] [cursor=pointer]:
+                  - /url: /pharmanews.html
+            - figure [ref=e284]
+          - generic [ref=e285]:
+            - generic [ref=e286]:
+              - heading [level=2] [ref=e287]:
+                - link "Jalapeño Recall Reaches Seven Grocery Chains In 26 States" [ref=e288] [cursor=pointer]:
+                  - /url: /news/jalape-o-recall-reaches-seven-grocery-chains-26-states-130934.html
+              - paragraph [ref=e289]: MONDAY, Aug. 10, 2026 — Prepared foods sold at some Trader Joe's, Target, Walmart, Hannaford, Kroger, Stop and Shop and Whole Foods stores are being...
+              - generic [ref=e290]:
+                - generic [ref=e291]: Today
+                - link "Medical" [ref=e292] [cursor=pointer]:
+                  - /url: /medical-news.html
+            - figure [ref=e294]
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - heading [level=2] [ref=e297]:
+                - link "AAP Releases Influenza Vaccine Recommendations for All Children 6 Months and Older" [ref=e298] [cursor=pointer]:
+                  - /url: /news/aap-releases-influenza-vaccine-recommendations-all-children-6-months-older-130936.html
+              - paragraph [ref=e299]: Researchers from the American Academy of Pediatrics Committee on Infectious Diseases updated recommendations for use of influenza vaccines and antiviral...
+              - generic [ref=e300]:
+                - generic [ref=e301]: Today
+                - link "News for Health Professionals" [ref=e302] [cursor=pointer]:
+                  - /url: /pharmanews.html
+            - figure [ref=e304]
+          - generic [ref=e305]:
+            - generic [ref=e306]:
+              - heading [level=2] [ref=e307]:
+                - link "Warning Symptoms, Clinical History Can Predict Sudden Cardiac Arrest" [ref=e308] [cursor=pointer]:
+                  - /url: /news/warning-clinical-history-can-predict-sudden-cardiac-arrest-130938.html
+              - paragraph [ref=e309]: Warning symptoms combined with clinical history can predict imminent sudden cardiac arrest (ISCA), and having a recurrent cardiovascular event is associated...
+              - generic [ref=e310]:
+                - generic [ref=e311]: Today
+                - link "News for Health Professionals" [ref=e312] [cursor=pointer]:
+                  - /url: /pharmanews.html
+            - figure [ref=e314]
+          - generic [ref=e315]:
+            - generic [ref=e316]:
+              - heading [level=2] [ref=e317]:
+                - link "New Melanoma Drug, Tudriqev, Based On Herpes Virus Granted FDA Accelerated Approval" [ref=e318] [cursor=pointer]:
+                  - /url: /news/new-melanoma-tudriqev-based-herpes-virus-granted-fda-accelerated-approval-130935.html
+              - paragraph [ref=e319]: MONDAY, Aug. 10, 2026 — Federal regulators have granted accelerated approval to a novel therapy for advanced melanoma — giving doctors another...
+              - generic [ref=e320]:
+                - generic [ref=e321]: Today
+                - link "Medical" [ref=e322] [cursor=pointer]:
+                  - /url: /medical-news.html
+            - figure [ref=e324]
+          - generic [ref=e325]:
+            - generic [ref=e326]:
+              - heading [level=2] [ref=e327]:
+                - link "Even Light Exercise May Lower Stroke Risk For People With A-fib" [ref=e328] [cursor=pointer]:
+                  - /url: /news/even-light-exercise-may-lower-stroke-risk-fib-130928.html
+              - paragraph [ref=e329]: MONDAY, Aug. 10, 2026 — If you have atrial fibrillation, or A-fib, getting moving may make a real difference. A-fib is an irregular heartbeat that...
+              - generic [ref=e330]:
+                - generic [ref=e331]: Today
+                - link "Medical" [ref=e332] [cursor=pointer]:
+                  - /url: /medical-news.html
+            - figure [ref=e334]
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - heading [level=2] [ref=e337]:
+                - link "Working At Home Makes Breastfeeding Harder, Not Easier, Study Says" [ref=e338] [cursor=pointer]:
+                  - /url: /news/working-home-makes-breastfeeding-harder-not-easier-study-says-130927.html
+              - paragraph [ref=e339]: MONDAY, Aug. 10, 2026 — Working from home won’t necessarily help a new mother breastfeed, a new study says. Mothers who worked from home had...
+              - generic [ref=e340]:
+                - generic [ref=e341]: Today
+                - link "Medical" [ref=e342] [cursor=pointer]:
+                  - /url: /medical-news.html
+            - figure [ref=e344]
+          - generic [ref=e346]:
+            - heading [level=2] [ref=e347]:
+              - link "Scholar Rock Announces FDA Review of Apitegromab Biologics License Application (BLA) for Spinal Muscular Atrophy (SMA) to Progress with Second Fill-Finish Facility" [ref=e348] [cursor=pointer]:
+                - /url: /nda/apitegromab_260807.html
+            - paragraph [ref=e349]: "(BUSINESS WIRE)--Aug. 7, 2026-- Scholar Rock (NASDAQ: SRRK), a global biopharmaceutical company dedicated to improving the lives of patients..."
+            - generic [ref=e350]:
+              - generic [ref=e351]: 3 days ago
+              - link "New Drug Applications" [ref=e352] [cursor=pointer]:
+                - /url: /new-drug-applications.html
+          - generic [ref=e354]:
+            - heading [level=2] [ref=e355]:
+              - link "BioInvent Receives FDA Fast Track Designation for BI-1808 for the Treatment of Ovarian Cancer" [ref=e356] [cursor=pointer]:
+                - /url: /clinical_trials/bioinvent-receives-fda-fast-track-designation-bi-1808-ovarian-cancer-22552.html
+            - paragraph [ref=e357]: "Lund, Sweden – August 7, 2026 – BioInvent International AB (“BioInvent”) (Nasdaq Stockholm: BINV), a leader in the..."
+            - generic [ref=e358]:
+              - generic [ref=e359]: 3 days ago
+              - link "Clinical Trials" [ref=e360] [cursor=pointer]:
+                - /url: /clinical_trials.html
+          - generic [ref=e362]:
+            - heading [level=2] [ref=e363]:
+              - link "Aclaris Therapeutics Receives Fast Track Designation for Modzatinib (ATI-2138) for Moderate to Severe Lichen Planus (LP)" [ref=e364] [cursor=pointer]:
+                - /url: /clinical_trials/aclaris-therapeutics-receives-fast-track-designation-modzatinib-ati-2138-moderate-severe-lichen-22553.html
+            - paragraph [ref=e365]: "Aclaris Therapeutics, Inc. (NASDAQ: ACRS), a clinical-stage biopharmaceutical company focused on developing novel product candidates for immuno-inflammatory..."
+            - generic [ref=e366]:
+              - generic [ref=e367]: 4 days ago
+              - link "Clinical Trials" [ref=e368] [cursor=pointer]:
+                - /url: /clinical_trials.html
+          - generic [ref=e370]:
+            - heading [level=2] [ref=e371]:
+              - link "Fresenius Kabi Issues Recall of One Lot of Morphine Sulfate Injection, USP in a Simplist® Prefilled Syringe Due to Labeling Mix-Up" [ref=e372] [cursor=pointer]:
+                - /url: /fda/fresenius-kabi-issues-recall-one-lot-morphine-sulfate-usp-simplist-prefilled-syringe-due-labeling-14824.html
+            - paragraph [ref=e373]: August 4, 2026 LAKE ZURICH, Ill.— Fresenius Kabi, an operating company of the Fresenius Group, is voluntarily recalling one lot of Morphine Sulfate...
+            - generic [ref=e374]:
+              - generic [ref=e375]: 5 days ago
+              - link "FDA Alerts" [ref=e376] [cursor=pointer]:
+                - /url: /fda_alerts.html
+          - generic [ref=e378]:
+            - heading [level=2] [ref=e379]:
+              - link "Victory Medical Center Pharmacy Issues Recall of Certain Lots of Compounded Glutathione 200 mg/mL Multi-Dose Vials Due to Elevated Endotoxin Levels" [ref=e380] [cursor=pointer]:
+                - /url: /fda/victory-medical-center-pharmacy-issues-recall-certain-lots-compounded-glutathione-200-mg-ml-multi-14823.html
+            - paragraph [ref=e381]: August 5, 2026 – Austin, Texas, Victory Medical Center Pharmacy is voluntarily recalling certain lots of Compounded Glutathione 200 mg/mL Multi-Dose...
+            - generic [ref=e382]:
+              - generic [ref=e383]: 6 days ago
+              - link "FDA Alerts" [ref=e384] [cursor=pointer]:
+                - /url: /fda_alerts.html
+          - generic [ref=e385]:
+            - generic [ref=e386]:
+              - heading [level=2] [ref=e387]:
+                - link "New Smart Ring Can Track Blood Sugar, Alcohol" [ref=e388] [cursor=pointer]:
+                  - /url: /news/new-smart-ring-can-track-blood-sugar-alcohol-130866.html
+              - paragraph [ref=e389]: TUESDAY, Aug. 4, 2026 — An experimental ring might one day help people with diabetes track their glucose levels, a new study says. The “smart...
+              - generic [ref=e390]:
+                - generic [ref=e391]: 6 days ago
+                - link "Medical" [ref=e392] [cursor=pointer]:
+                  - /url: /medical-news.html
+            - figure [ref=e394]
+        - paragraph [ref=e395]:
+          - link "Read more news..." [ref=e396] [cursor=pointer]:
+            - /url: /news.html
+        - heading "Recently Added" [level=3] [ref=e397]
+        - paragraph [ref=e398]:
+          - text: "Recently added consumer and prescribing information:"
+          - link "Tudriqev" [ref=e399] [cursor=pointer]:
+            - /url: /tudriqev.html
+          - text: ","
+          - link "Orzeyful" [ref=e400] [cursor=pointer]:
+            - /url: /orzeyful.html
+          - text: ","
+          - link "Gwyn Lo" [ref=e401] [cursor=pointer]:
+            - /url: /gwyn-lo.html
+          - text: ","
+          - link "Lytenava" [ref=e402] [cursor=pointer]:
+            - /url: /lytenava.html
+          - text: ","
+          - link "Jideytro" [ref=e403] [cursor=pointer]:
+            - /url: /jideytro.html
+          - text: ","
+          - link "Lipfendra" [ref=e404] [cursor=pointer]:
+            - /url: /lipfendra.html
+          - text: ","
+          - link "Revtorpyk" [ref=e405] [cursor=pointer]:
+            - /url: /revtorpyk.html
+          - text: ","
+          - link "Sarclisa Escena" [ref=e406] [cursor=pointer]:
+            - /url: /sarclisa-escena.html
+          - text: ","
+          - link "Cypsedo" [ref=e407] [cursor=pointer]:
+            - /url: /cypsedo.html
+          - text: ","
+          - link "Lumvoa" [ref=e408] [cursor=pointer]:
+            - /url: /lumvoa.html
+        - heading "For Consumers" [level=3] [ref=e409]
+        - list [ref=e410]:
+          - listitem [ref=e411]:
+            - link "Cerner Multum Drug Information" [ref=e412] [cursor=pointer]:
+              - /url: /mtm/
+          - listitem [ref=e413]:
+            - link "Micromedex Advanced Consumer" [ref=e414] [cursor=pointer]:
+              - /url: /cons/
+          - listitem [ref=e415]:
+            - link "Natural Product Information for the Consumer" [ref=e416] [cursor=pointer]:
+              - /url: /npc/
+        - heading "For Professionals" [level=3] [ref=e417]
+        - list [ref=e418]:
+          - listitem [ref=e419]:
+            - link "FDA Professional Information" [ref=e420] [cursor=pointer]:
+              - /url: /pro/
+          - listitem [ref=e421]:
+            - link "Professional Patient Advice" [ref=e422] [cursor=pointer]:
+              - /url: /ppa/
+          - listitem [ref=e423]:
+            - link "ASHP Monographs (AHFS DI)" [ref=e424] [cursor=pointer]:
+              - /url: /monograph/
+          - listitem [ref=e425]:
+            - link "Micromedex CareNotes" [ref=e426] [cursor=pointer]:
+              - /url: /cg/
+          - listitem [ref=e427]:
+            - link "Natural Product Information" [ref=e428] [cursor=pointer]:
+              - /url: /npp/
+        - heading "For Researchers" [level=3] [ref=e429]
+        - list [ref=e430]:
+          - listitem [ref=e431]:
+            - link "Pharmaceutical Company Directory" [ref=e432] [cursor=pointer]:
+              - /url: /pharmaceutical-companies.html
+        - heading "Latest FDA New Drug Approvals" [level=3] [ref=e433]
+        - list [ref=e434]:
+          - listitem [ref=e435]:
+            - link "Tudriqev" [ref=e436] [cursor=pointer]:
+              - /url: /tudriqev.html
+            - text: Tudriqev (vusolimogene oderparepvec-wtpg) is a genetically modified oncolytic viral therapy for use in combination with nivolumab for the...
+          - listitem [ref=e437]:
+            - link "mFLUSIVA" [ref=e438] [cursor=pointer]:
+              - /url: /mflusiva.html
+            - text: mFLUSIVA (influenza vaccine, mRNA) is an mRNA-based flu vaccine for for the prevention of influenza disease.
+          - listitem [ref=e439]:
+            - link "Mucinex 12HR Cold & Fever Multi-Symptom" [ref=e440] [cursor=pointer]:
+              - /url: /pro/mucinex-12hr-cold-and-fever.html
+            - text: Mucinex 12HR Cold & Fever Multi-Symptom (dextromethorphan hydrobromide, guaifenesin and naproxen sodium) is a cough suppressant...
+        - paragraph [ref=e441]:
+          - link "More FDA approvals…" [ref=e442] [cursor=pointer]:
+            - /url: /newdrugs.html
+      - generic [ref=e443]:
+        - generic [ref=e444]:
+          - heading "Drug Information" [level=2] [ref=e445]
+          - list [ref=e446]:
+            - listitem [ref=e447]:
+              - link "A to Z Drug List" [ref=e448] [cursor=pointer]:
+                - /url: /drug_information.html
+            - listitem [ref=e449]:
+              - link "Treatment Options" [ref=e450] [cursor=pointer]:
+                - /url: /medical_conditions.html
+            - listitem [ref=e451]:
+              - link "Drugs by Class" [ref=e452] [cursor=pointer]:
+                - /url: /drug-class/
+            - listitem [ref=e453]:
+              - link "Dosage" [ref=e454] [cursor=pointer]:
+                - /url: /dosage/
+            - listitem [ref=e455]:
+              - link "Side Effects" [ref=e456] [cursor=pointer]:
+                - /url: /sfx/
+            - listitem [ref=e457]:
+              - link "Medical Q & A" [ref=e458] [cursor=pointer]:
+                - /url: /medical-answers/
+            - listitem [ref=e459]:
+              - link "Generic Drugs" [ref=e460] [cursor=pointer]:
+                - /url: /availability/
+            - listitem [ref=e461]:
+              - link "Harvard Health Guide" [ref=e462] [cursor=pointer]:
+                - /url: /health-guide/
+            - listitem [ref=e463]:
+              - link "Phonetic Search" [ref=e464] [cursor=pointer]:
+                - /url: /search-wildcard-phonetic.html
+            - listitem [ref=e465]:
+              - link "Pregnancy Warnings" [ref=e466] [cursor=pointer]:
+                - /url: /pregnancy/
+            - listitem [ref=e467]:
+              - link "OTC Database" [ref=e468] [cursor=pointer]:
+                - /url: /otc/
+            - listitem [ref=e469]:
+              - link "Inactive Ingredients" [ref=e470] [cursor=pointer]:
+                - /url: /inactive/
+            - listitem [ref=e471]:
+              - link "Veterinary Drugs" [ref=e472] [cursor=pointer]:
+                - /url: /vet/
+            - listitem [ref=e473]:
+              - link "International Drugs" [ref=e474] [cursor=pointer]:
+                - /url: /international/
+            - listitem [ref=e475]:
+              - link "Info en Español" [ref=e476] [cursor=pointer]:
+                - /url: /mtm_esp/
+            - listitem [ref=e477]:
+              - link "Pricing & Coupon Guide" [ref=e478] [cursor=pointer]:
+                - /url: /price-guide/
+        - generic [ref=e479]:
+          - heading "Tools" [level=2] [ref=e480]
+          - list [ref=e481]:
+            - listitem [ref=e482]:
+              - link "Interaction Checker" [ref=e483] [cursor=pointer]:
+                - /url: /drug_interactions.html
+            - listitem [ref=e484]:
+              - link "Pill Identifier" [ref=e485] [cursor=pointer]:
+                - /url: /pill_identification.html
+            - listitem [ref=e486]:
+              - link "Symptom Checker" [ref=e487] [cursor=pointer]:
+                - /url: /symptom-checker/
+            - listitem [ref=e488]:
+              - link "Medication Record" [ref=e489] [cursor=pointer]:
+                - /url: /mednotes/
+            - listitem [ref=e490]:
+              - link "Mobile Apps" [ref=e491] [cursor=pointer]:
+                - /url: /apps/
+            - listitem [ref=e492]:
+              - link "Drug Imprint Codes" [ref=e493] [cursor=pointer]:
+                - /url: /imprints.html
+            - listitem [ref=e494]:
+              - link "Community Support" [ref=e495] [cursor=pointer]:
+                - /url: /answers/
+            - listitem [ref=e496]:
+              - link "Compare Drugs" [ref=e497] [cursor=pointer]:
+                - /url: /compare/
+          - heading "News & Alerts" [level=2] [ref=e498]
+          - list [ref=e499]:
+            - listitem [ref=e500]:
+              - link "Medical News" [ref=e501] [cursor=pointer]:
+                - /url: /news.html
+            - listitem [ref=e502]:
+              - link "Clinical Trial Results" [ref=e503] [cursor=pointer]:
+                - /url: /clinical_trials.html
+            - listitem [ref=e504]:
+              - link "FDA Drug Alerts" [ref=e505] [cursor=pointer]:
+                - /url: /fda_alerts.html
+            - listitem [ref=e506]:
+              - link "FDA Consumer Updates" [ref=e507] [cursor=pointer]:
+                - /url: /fda-consumer/
+            - listitem [ref=e508]:
+              - link "New FDA Approvals" [ref=e509] [cursor=pointer]:
+                - /url: /newdrugs.html
+            - listitem [ref=e510]:
+              - link "New Drug Applications" [ref=e511] [cursor=pointer]:
+                - /url: /new-drug-applications.html
+            - listitem [ref=e512]:
+              - link "Drug Shortages" [ref=e513] [cursor=pointer]:
+                - /url: /drug-shortages/
+            - listitem [ref=e514]:
+              - link "Video Center" [ref=e515] [cursor=pointer]:
+                - /url: /video/
+            - listitem [ref=e516]:
+              - link "Popular Articles" [ref=e517] [cursor=pointer]:
+                - /url: /article/
+          - heading "Professionals" [level=2] [ref=e518]
+          - list [ref=e519]:
+            - listitem [ref=e520]:
+              - link "Resource Center" [ref=e521] [cursor=pointer]:
+                - /url: /professionals.html
+            - listitem [ref=e522]:
+              - link "Patient Care Notes" [ref=e523] [cursor=pointer]:
+                - /url: /cg/
+        - generic [ref=e524]:
+          - heading "Top 100 Drugs" [level=2] [ref=e525]
+          - list [ref=e527]:
+            - listitem [ref=e528]:
+              - link "Abilify" [ref=e529] [cursor=pointer]:
+                - /url: /abilify.html
+            - listitem [ref=e530]:
+              - link "Adderall" [ref=e531] [cursor=pointer]:
+                - /url: /adderall.html
+            - listitem [ref=e532]:
+              - link "Aimovig" [ref=e533] [cursor=pointer]:
+                - /url: /aimovig.html
+            - listitem [ref=e534]:
+              - link "Ambien" [ref=e535] [cursor=pointer]:
+                - /url: /ambien.html
+            - listitem [ref=e536]:
+              - link "Atorvastatin" [ref=e537] [cursor=pointer]:
+                - /url: /atorvastatin.html
+            - listitem [ref=e538]:
+              - link "Austedo" [ref=e539] [cursor=pointer]:
+                - /url: /austedo.html
+            - listitem [ref=e540]:
+              - link "Avastin" [ref=e541] [cursor=pointer]:
+                - /url: /avastin.html
+            - listitem [ref=e542]:
+              - link "Benlysta" [ref=e543] [cursor=pointer]:
+                - /url: /benlysta.html
+            - listitem [ref=e544]:
+              - link "Biktarvy" [ref=e545] [cursor=pointer]:
+                - /url: /biktarvy.html
+            - listitem [ref=e546]:
+              - link "Botox" [ref=e547] [cursor=pointer]:
+                - /url: /botox.html
+            - listitem [ref=e548]:
+              - link "Breztri" [ref=e549] [cursor=pointer]:
+                - /url: /breztri-aerosphere.html
+            - listitem [ref=e550]:
+              - link "Buprenorphine" [ref=e551] [cursor=pointer]:
+                - /url: /buprenorphine.html
+            - listitem [ref=e552]:
+              - link "Cabenuva" [ref=e553] [cursor=pointer]:
+                - /url: /cabenuva.html
+            - listitem [ref=e554]:
+              - link "Cimzia" [ref=e555] [cursor=pointer]:
+                - /url: /cimzia.html
+            - listitem [ref=e556]:
+              - link "Cosentyx" [ref=e557] [cursor=pointer]:
+                - /url: /cosentyx.html
+            - listitem [ref=e558]:
+              - link "Diazepam" [ref=e559] [cursor=pointer]:
+                - /url: /diazepam.html
+            - listitem [ref=e560]:
+              - link "Descovy" [ref=e561] [cursor=pointer]:
+                - /url: /descovy.html
+            - listitem [ref=e562]:
+              - link "Diclofenac" [ref=e563] [cursor=pointer]:
+                - /url: /diclofenac.html
+            - listitem [ref=e564]:
+              - link "Doxycycline" [ref=e565] [cursor=pointer]:
+                - /url: /doxycycline.html
+            - listitem [ref=e566]:
+              - link "Duloxetine" [ref=e567] [cursor=pointer]:
+                - /url: /duloxetine.html
+            - listitem [ref=e568]:
+              - link "Dupixent" [ref=e569] [cursor=pointer]:
+                - /url: /dupixent.html
+            - listitem [ref=e570]:
+              - link "Emgality" [ref=e571] [cursor=pointer]:
+                - /url: /emgality.html
+            - listitem [ref=e572]:
+              - link "Enhertu" [ref=e573] [cursor=pointer]:
+                - /url: /enhertu.html
+            - listitem [ref=e574]:
+              - link "Entyvio" [ref=e575] [cursor=pointer]:
+                - /url: /entyvio.html
+            - listitem [ref=e576]:
+              - link "Epclusa" [ref=e577] [cursor=pointer]:
+                - /url: /epclusa.html
+            - listitem [ref=e578]:
+              - link "Erleada" [ref=e579] [cursor=pointer]:
+                - /url: /erleada.html
+            - listitem [ref=e580]:
+              - link "Evenity" [ref=e581] [cursor=pointer]:
+                - /url: /evenity.html
+            - listitem [ref=e582]:
+              - link "Fasenra" [ref=e583] [cursor=pointer]:
+                - /url: /fasenra.html
+            - listitem [ref=e584]:
+              - link "Farxiga" [ref=e585] [cursor=pointer]:
+                - /url: /farxiga.html
+            - listitem [ref=e586]:
+              - link "Gabapentin" [ref=e587] [cursor=pointer]:
+                - /url: /gabapentin.html
+            - listitem [ref=e588]:
+              - link "Gemtesa" [ref=e589] [cursor=pointer]:
+                - /url: /gemtesa.html
+            - listitem [ref=e590]:
+              - link "Humira" [ref=e591] [cursor=pointer]:
+                - /url: /humira.html
+            - listitem [ref=e592]:
+              - link "Ibuprofen" [ref=e593] [cursor=pointer]:
+                - /url: /ibuprofen.html
+            - listitem [ref=e594]:
+              - link "Imbruvica" [ref=e595] [cursor=pointer]:
+                - /url: /imbruvica.html
+            - listitem [ref=e596]:
+              - link "Januvia" [ref=e597] [cursor=pointer]:
+                - /url: /januvia.html
+            - listitem [ref=e598]:
+              - link "Jardiance" [ref=e599] [cursor=pointer]:
+                - /url: /jardiance.html
+            - listitem [ref=e600]:
+              - link "Kesimpta" [ref=e601] [cursor=pointer]:
+                - /url: /kesimpta.html
+            - listitem [ref=e602]:
+              - link "Keytruda" [ref=e603] [cursor=pointer]:
+                - /url: /keytruda.html
+            - listitem [ref=e604]:
+              - link "Kisqali" [ref=e605] [cursor=pointer]:
+                - /url: /kisqali.html
+            - listitem [ref=e606]:
+              - link "Leqembi" [ref=e607] [cursor=pointer]:
+                - /url: /leqembi.html
+            - listitem [ref=e608]:
+              - link "Leqvio" [ref=e609] [cursor=pointer]:
+                - /url: /leqvio.html
+            - listitem [ref=e610]:
+              - link "Lexapro" [ref=e611] [cursor=pointer]:
+                - /url: /lexapro.html
+            - listitem [ref=e612]:
+              - link "Lybalvi" [ref=e613] [cursor=pointer]:
+                - /url: /lybalvi.html
+            - listitem [ref=e614]:
+              - link "Lyrica" [ref=e615] [cursor=pointer]:
+                - /url: /lyrica.html
+            - listitem [ref=e616]:
+              - link "Metformin" [ref=e617] [cursor=pointer]:
+                - /url: /metformin.html
+            - listitem [ref=e618]:
+              - link "Methadone" [ref=e619] [cursor=pointer]:
+                - /url: /methadone.html
+            - listitem [ref=e620]:
+              - link "Methotrexate" [ref=e621] [cursor=pointer]:
+                - /url: /methotrexate.html
+            - listitem [ref=e622]:
+              - link "Mounjaro" [ref=e623] [cursor=pointer]:
+                - /url: /mounjaro.html
+            - listitem [ref=e624]:
+              - link "Naloxone" [ref=e625] [cursor=pointer]:
+                - /url: /naloxone.html
+            - listitem [ref=e626]:
+              - link "Naltrexone" [ref=e627] [cursor=pointer]:
+                - /url: /naltrexone.html
+            - listitem [ref=e628]:
+              - link "Nucala" [ref=e629] [cursor=pointer]:
+                - /url: /nucala.html
+            - listitem [ref=e630]:
+              - link "Nurtec" [ref=e631] [cursor=pointer]:
+                - /url: /nurtec-odt.html
+            - listitem [ref=e632]:
+              - link "Ofev" [ref=e633] [cursor=pointer]:
+                - /url: /ofev.html
+            - listitem [ref=e634]:
+              - link "Opdivo" [ref=e635] [cursor=pointer]:
+                - /url: /opdivo.html
+            - listitem [ref=e636]:
+              - link "Orladeyo" [ref=e637] [cursor=pointer]:
+                - /url: /orladeyo.html
+            - listitem [ref=e638]:
+              - link "Otezla" [ref=e639] [cursor=pointer]:
+                - /url: /otezla.html
+            - listitem [ref=e640]:
+              - link "Oxycodone" [ref=e641] [cursor=pointer]:
+                - /url: /oxycodone.html
+            - listitem [ref=e642]:
+              - link "Ozempic" [ref=e643] [cursor=pointer]:
+                - /url: /ozempic.html
+            - listitem [ref=e644]:
+              - link "Paxlovid" [ref=e645] [cursor=pointer]:
+                - /url: /paxlovid.html
+            - listitem [ref=e646]:
+              - link "Penicillin" [ref=e647] [cursor=pointer]:
+                - /url: /penicillin.html
+            - listitem [ref=e648]:
+              - link "Praluent" [ref=e649] [cursor=pointer]:
+                - /url: /praluent.html
+            - listitem [ref=e650]:
+              - link "Prednisone" [ref=e651] [cursor=pointer]:
+                - /url: /prednisone.html
+            - listitem [ref=e652]:
+              - link "Prozac" [ref=e653] [cursor=pointer]:
+                - /url: /prozac.html
+            - listitem [ref=e654]:
+              - link "Qulipta" [ref=e655] [cursor=pointer]:
+                - /url: /qulipta.html
+            - listitem [ref=e656]:
+              - link "Quviviq" [ref=e657] [cursor=pointer]:
+                - /url: /quviviq.html
+            - listitem [ref=e658]:
+              - link "Reblozyl" [ref=e659] [cursor=pointer]:
+                - /url: /reblozyl.html
+            - listitem [ref=e660]:
+              - link "Repatha" [ref=e661] [cursor=pointer]:
+                - /url: /repatha.html
+            - listitem [ref=e662]:
+              - link "Restasis" [ref=e663] [cursor=pointer]:
+                - /url: /restasis.html
+            - listitem [ref=e664]:
+              - link "Rexulti" [ref=e665] [cursor=pointer]:
+                - /url: /rexulti.html
+            - listitem [ref=e666]:
+              - link "Rybelsus" [ref=e667] [cursor=pointer]:
+                - /url: /rybelsus.html
+            - listitem [ref=e668]:
+              - link "Semaglutide" [ref=e669] [cursor=pointer]:
+                - /url: /semaglutide.html
+            - listitem [ref=e670]:
+              - link "Seroquel" [ref=e671] [cursor=pointer]:
+                - /url: /seroquel.html
+            - listitem [ref=e672]:
+              - link "Sildenafil" [ref=e673] [cursor=pointer]:
+                - /url: /sildenafil.html
+            - listitem [ref=e674]:
+              - link "Skyrizi" [ref=e675] [cursor=pointer]:
+                - /url: /skyrizi.html
+            - listitem [ref=e676]:
+              - link "Sotyktu" [ref=e677] [cursor=pointer]:
+                - /url: /sotyktu.html
+            - listitem [ref=e678]:
+              - link "Stelara" [ref=e679] [cursor=pointer]:
+                - /url: /stelara.html
+            - listitem [ref=e680]:
+              - link "Sublocade" [ref=e681] [cursor=pointer]:
+                - /url: /sublocade.html
+            - listitem [ref=e682]:
+              - link "Taltz" [ref=e683] [cursor=pointer]:
+                - /url: /taltz.html
+            - listitem [ref=e684]:
+              - link "Tepezza" [ref=e685] [cursor=pointer]:
+                - /url: /tepezza.html
+            - listitem [ref=e686]:
+              - link "Tramadol" [ref=e687] [cursor=pointer]:
+                - /url: /tramadol.html
+            - listitem [ref=e688]:
+              - link "Tremfya" [ref=e689] [cursor=pointer]:
+                - /url: /tremfya.html
+            - listitem [ref=e690]:
+              - link "Trintellix" [ref=e691] [cursor=pointer]:
+                - /url: /trintellix.html
+            - listitem [ref=e692]:
+              - link "Tylenol" [ref=e693] [cursor=pointer]:
+                - /url: /tylenol.html
+            - listitem [ref=e694]:
+              - link "Ubrelvy" [ref=e695] [cursor=pointer]:
+                - /url: /ubrelvy.html
+            - listitem [ref=e696]:
+              - link "Vabysmo" [ref=e697] [cursor=pointer]:
+                - /url: /vabysmo.html
+            - listitem [ref=e698]:
+              - link "Venclexta" [ref=e699] [cursor=pointer]:
+                - /url: /venclexta.html
+            - listitem [ref=e700]:
+              - link "Verzenio" [ref=e701] [cursor=pointer]:
+                - /url: /verzenio.html
+            - listitem [ref=e702]:
+              - link "Viagra" [ref=e703] [cursor=pointer]:
+                - /url: /viagra.html
+            - listitem [ref=e704]:
+              - link "Vijoice" [ref=e705] [cursor=pointer]:
+                - /url: /vijoice.html
+            - listitem [ref=e706]:
+              - link "Vraylar" [ref=e707] [cursor=pointer]:
+                - /url: /vraylar.html
+            - listitem [ref=e708]:
+              - link "Vumerity" [ref=e709] [cursor=pointer]:
+                - /url: /vumerity.html
+            - listitem [ref=e710]:
+              - link "Vyepti" [ref=e711] [cursor=pointer]:
+                - /url: /vyepti.html
+            - listitem [ref=e712]:
+              - link "Vyvanse" [ref=e713] [cursor=pointer]:
+                - /url: /vyvanse.html
+            - listitem [ref=e714]:
+              - link "Vyvgart" [ref=e715] [cursor=pointer]:
+                - /url: /vyvgart.html
+            - listitem [ref=e716]:
+              - link "Wegovy" [ref=e717] [cursor=pointer]:
+                - /url: /wegovy.html
+            - listitem [ref=e718]:
+              - link "Wellbutrin" [ref=e719] [cursor=pointer]:
+                - /url: /wellbutrin.html
+            - listitem [ref=e720]:
+              - link "Xanax" [ref=e721] [cursor=pointer]:
+                - /url: /xanax.html
+            - listitem [ref=e722]:
+              - link "Xolair" [ref=e723] [cursor=pointer]:
+                - /url: /xolair.html
+            - listitem [ref=e724]:
+              - link "Xyrem" [ref=e725] [cursor=pointer]:
+                - /url: /xyrem.html
+            - listitem [ref=e726]:
+              - link "Zepbound" [ref=e727] [cursor=pointer]:
+                - /url: /zepbound.html
+        - generic [ref=e728]:
+          - generic [ref=e729]: Recommended Content
+          - generic [ref=e731]:
+            - link [ref=e732] [cursor=pointer]:
+              - /url: /health-guide/
+              - 'img "Recommended content provider: Harvard Health Publishing" [ref=e733]'
+            - link [ref=e734] [cursor=pointer]:
+              - /url: /mtm/
+              - 'img "Recommended content provider: Cerner Multum" [ref=e735]'
+            - link [ref=e736] [cursor=pointer]:
+              - /url: /monograph/
+              - 'img "Recommended content provider: American Society of Health-System Pharmacists" [ref=e737]'
+            - link [ref=e738] [cursor=pointer]:
+              - /url: /cons/
+              - 'img "Recommended content provider: Thomson Reuters" [ref=e739]'
+  - contentinfo [ref=e740]:
+    - generic [ref=e741]:
+      - generic [ref=e742]:
+        - generic [ref=e743]:
+          - generic [ref=e744]: Drugs.com Mobile App
+          - paragraph [ref=e745]: Access drug & treatment information, identify pills, check interactions and set up personal medication records.
+          - generic [ref=e746]:
+            - link "Download the Medication Guide app on iTunes" [ref=e747] [cursor=pointer]:
+              - /url: //apps.apple.com/us/app/drugs-com-medication-guide/id599471042?platform=iphone
+            - link "Download the Medication Guide app on the Google Play store" [ref=e750] [cursor=pointer]:
+              - /url: //play.google.com/store/apps/details?id=com.drugscom.app
+        - img "Drugs.com mobile app" [ref=e755]
+      - navigation "Informational and social site links" [ref=e756]:
+        - link "Drugs.com" [ref=e758] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e761]:
+          - generic [ref=e762]: About
+          - list [ref=e763]:
+            - listitem [ref=e764]:
+              - link "About Drugs.com" [ref=e765] [cursor=pointer]:
+                - /url: /support/about.html
+            - listitem [ref=e766]:
+              - link "Advertising policy" [ref=e767] [cursor=pointer]:
+                - /url: /support/advertising.html
+            - listitem [ref=e768]:
+              - link "Attribution & citations" [ref=e769] [cursor=pointer]:
+                - /url: /support/citations.html
+            - listitem [ref=e770]:
+              - link "Drugs.com Podcast" [ref=e771] [cursor=pointer]:
+                - /url: //podcasts.drugs.com/
+        - generic [ref=e772]:
+          - generic [ref=e773]: Terms & privacy
+          - list [ref=e774]:
+            - listitem [ref=e775]:
+              - link "Terms of use" [ref=e776] [cursor=pointer]:
+                - /url: /support/terms.html
+            - listitem [ref=e777]:
+              - link "Editorial policy" [ref=e778] [cursor=pointer]:
+                - /url: /support/editorial-policy.html
+            - listitem [ref=e779]:
+              - link "Privacy policy" [ref=e780] [cursor=pointer]:
+                - /url: /support/privacy.html
+              - link "Updated Feb 5, 2026" [ref=e781] [cursor=pointer]:
+                - /url: /support/privacy-history.html
+        - generic [ref=e782]:
+          - generic [ref=e783]: Support
+          - list [ref=e784]:
+            - listitem [ref=e785]:
+              - link "Help center" [ref=e786] [cursor=pointer]:
+                - /url: /support/
+            - listitem [ref=e787]:
+              - link "Sitemap" [ref=e788] [cursor=pointer]:
+                - /url: /sitemap.html
+            - listitem [ref=e789]:
+              - link "Contact us" [ref=e790] [cursor=pointer]:
+                - /url: /support/contact.html
+            - listitem [ref=e791]:
+              - link "Accessibility" [ref=e792] [cursor=pointer]:
+                - /url: /support/accessibility.html
+        - generic [ref=e793]:
+          - list [ref=e794]:
+            - listitem [ref=e795]:
+              - link "Subscribe to Drugs.com newsletters" [ref=e796] [cursor=pointer]:
+                - /url: /newsletters/
+            - listitem [ref=e800]:
+              - link "Follow Drugs.com on Facebook" [ref=e801] [cursor=pointer]:
+                - /url: //www.facebook.com/Drugscom
+            - listitem [ref=e805]:
+              - link "Follow Drugs.com on X (Twitter)" [ref=e806] [cursor=pointer]:
+                - /url: //x.com/drugscom
+            - listitem [ref=e810]:
+              - link "Follow Drugs.com on Instagram" [ref=e811] [cursor=pointer]:
+                - /url: //www.instagram.com/drugs.com_official/
+            - listitem [ref=e815]:
+              - link "Follow Drugs.com on YouTube" [ref=e816] [cursor=pointer]:
+                - /url: //www.youtube.com/user/drugscom
+            - listitem [ref=e820]:
+              - link "Follow Drugs.com on Pinterest" [ref=e821] [cursor=pointer]:
+                - /url: //www.pinterest.com/drugscom/
+          - paragraph [ref=e825]:
+            - link "Subscribe to our newsletter" [ref=e826] [cursor=pointer]:
+              - /url: /newsletters/
+            - text: for the latest medication news, new drug approvals and FDA alerts.
+      - generic [ref=e827]:
+        - strong [ref=e828]: Drugs.com
+        - text: provides accurate and independent information on more than 24,000 prescription drugs, over-the-counter medicines and natural products. This material is provided for educational purposes only and is not intended for medical advice, diagnosis or treatment. Data sources include Micromedex (updated Aug 2, 2026), Cerner Multum™ (updated Aug 9, 2026), ASHP (updated Aug 10, 2026) and others.
+      - generic [ref=e829]:
+        - generic [ref=e830]:
+          - link [ref=e831] [cursor=pointer]:
+            - /url: //privacy.truste.com/privacy-seal/validation?rid=d18cba4a-afc4-4863-af81-8262bb120271
+            - img "Certified by TRUSTe" [ref=e832]
+          - img "Verified by TAG" [ref=e833]
+          - link [ref=e834] [cursor=pointer]:
+            - /url: //aacihealthcare.com/certificates/c173-2022-trust-us/
+            - img "This website is certified by AACI. Click to verify." [ref=e835]
+          - link [ref=e836] [cursor=pointer]:
+            - /url: /support/privacy/advertising.html
+            - img "AdChoices - Ad privacy information" [ref=e837]
+        - generic [ref=e838]: Copyright © 2000-2026 Drugs.com. All rights reserved.

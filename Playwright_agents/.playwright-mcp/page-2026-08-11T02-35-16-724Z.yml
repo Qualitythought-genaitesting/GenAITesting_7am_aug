@@ -1,0 +1,9 @@
+- generic [active] [ref=f13e1]:
+  - banner [ref=f13e2]:
+    - generic [ref=f13e3]: Drugs.com
+  - main [ref=f13e5]:
+    - generic [ref=f13e12]:
+      - heading "Access Denied" [level=1] [ref=f13e13]
+      - paragraph [ref=f13e14]: "Access to Drugs.com is not available from your region or network. Error ID: 0.4a7c4117.1786415716.97163413"
+  - contentinfo [ref=f13e15]:
+    - paragraph [ref=f13e17]: Copyright © 2000-2026 Drugs.com. All rights reserved.
