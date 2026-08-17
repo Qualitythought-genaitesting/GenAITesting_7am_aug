@@ -1,0 +1,93 @@
+Good Morning !!!!!
+==================
+Recap!
+
+how to use AI agents in the automation 
+a. Downloaded and install VSCODE 
+b. Downloaded and install nodejs 
+c. Folder and supply this folder to the VCODE => Install the playwright by using npm init playwright@latest 
+d. install the playwright agents 
+e. Create a GitHub account 
+f. in the VSCODE you can download and install GitHub copilot chat plugin 
+g. Login to the GitHub account 
+h. launch the agent and set the prompt to create test plan / test script 
+===========================================================================
+As a tester you are utilizing the agent services provided by the playwright 
+
+Now tell me how are you using this script => by reviewing he script ?
+
+=> then only we consider the output for your testing purpose. 
+
+
+Likewise AI agent also => Planner agent 
+1. Plan the task  => what ever you mentioned in the prompt 
+
+create a test plan for make my trip is the task => agent 
+what is the template i need to consider 
+how many scenarios we need to capture 
+positive scenarios
+negative also 
+edge cases too 
+
+2. it will perform action => start working on your planned task 
+
+=> call the necessary tools required to complete the task
+
+a. exploring the application in the browser => 
+
+b. playwright MCP server => browser  => browser actions 
+
+c. after you perform the action with in the browser => identify where is UI element => Locator /selector 
+
+d. generate the automation script for the explored content 
+
+e. submit the script into the tests folder 
+
+Observability in the agent testing : observe the outcome is it as per your requirement or expectation then we move to the next step or next task 
+
+if some thing is deviating or not working as per the expectations then we need to rethink and re act on that task => 
+
+
+whenever there is an issue => you agent is reacting  => in this example you browser is not responding with the MakeMyTrip request  => in this case 
+
+agent will get the false alarm => MCP server =>  now Agent 
+
+try to correct the problem by acting once again => Re Act until the problem is solved 
+
+
+
+difference between => STLC with AI and Playwright agents 
+
+chatgpt or claude created the information for your question. ASK a question and get the response  => gen AI applications 
+
+
+playwright agent => Think about the task mentioned in the prompt => plan task execution step by step => call the tools required to complete this task => perform the task  => observe the outcome  => Rethink  => tools => perform an action
+
+think  => Act  => observe  => until you achieve your goal 
+
+=> this loop may not end and run into a infinite loop . this is goal of a tester to identify in the agent testing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
