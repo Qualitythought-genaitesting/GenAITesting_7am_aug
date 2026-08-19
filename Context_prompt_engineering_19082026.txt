@@ -1,0 +1,136 @@
+Good Morning !!!!!
+====================
+Recap => 
+
+We are trying to understands prompt engineering . 
+As part this lecture we are trying to understand important keywords or terminology in Gen AI or Gen AI testing . 
+a. LLM => Large Language Model 
+b. Tokens 
+c. Tokenizer 
+d. temperature 
+=> deterministic or probabilistic / non deterministic / creative 
+0 to 2 
+0.7 => 
+
+note: customer could not able to change these temperature values . No provision in chatgpt or claude or perplexity to modify the temperature values through customer UI 
+
+to change this temperature we can add => deterministic or creative kind of key words we need to add in your prompt . 
+
+=> more deterministic the answer will be more deterministic . 
+=> more creative answer the answer will be more non deterministic and creativity we can see in the style of answer not on the facts we are displaying in the answer. 
+
+=> the meaning of the response keep /remain same 
+
+now => how do we get back to the previous / normal temperature state ? or this keyword(deterministic /creative)  it effects only the prompt you mentioned or it carry forward to next prompt also . 
+
+=> prompt1 => what is STLC?  => Regular prompt with default temperature 
+=> prompt2 => what is STLC please be more deterministic and concise => you changing the temperature to deterministic temperature with the suffix you added
+prompt 2 inputs are carry forwarding => true  => context 
+
+=> prompt 3 => what is test planning in the STLC? 
+
+is it answer with default temp or modified deterministic temp ? 
+
+LLM /AI brain => refer the previous prompt's important information to answering the current prompt. Context => it is your temporary memory 
+
+=> session data + Database  in web application => context in AI 
+
+=> prompt 4 => What is test case design in the STLC with more creativity ? 
+
+temperature increated to creativity level  in the prompt context 
+
+=> to ignore the context we can add prefix as " ignore my previous instructions and answer for software testing?"
+
+Refine the prompt until you get the correct response  => based on this exercise AI brain will understand how this customer expecting the output from my side. 
+
+=> if use same chat the response is much better compared to new chat ? why
+
+=> because Ai context => temp memory experience with you - how you are expecting the answer from AI brain . 
+
+=> a.  deterministic and concise => to make it less temp to the AI brain 
+=> b.  more creative and elaborative => to make it more temp to the Ai brain 
+=> this setup like more deterministic or creative will be in the chat context so if you wat  => get back to the previous state or normal state 
+ a. ignore all my previous statements and do this  => removing the special effects from now . 
+ b. Do not be more deterministic and do not be more creative maintain your own temperature to answer -  start your question 
+
+ fresh window 
+ b. create a new chat 
+==============================================================================
+context window : how much history or chat conversation we can consider for the current prompt 
+
+First in First out 
+
+example :  20 chat prompts we can consider as a context limit 
+
+21 prompt => 1st prompt will be replaced by 21st prompt 
+22 prompt  => 2nd prompt will be replaced by 22nd prompt 
+new line 1
+line 2 
+line 3 
+line 4
+line 5
+==============================================================================
+context is parent 
+temp is child  => 
+==============================================================================
+Types of prompts : 
+
+1. zero shot prompts or single shot prompts => straight task you are mentioning in the prompt . 
+some times you may get the expected outcome or some time you get partial answer only 
+
+I am a customer of chatgpt => 
+
+=> Explain Gen AI testing ? 
+
+
+2. Multi shot prompt : task + more background information 
+
+Will add some context with in the same prompt . Adding some extra information 
+
+
+Explain gen AI testing ? I want to test drugs.com/search/ai application as a exploratory tester [ no requirements] , previously I used to test the drugs.com for so many medicines related information through search , now what kind of test scenarios i need to consider to test this gen ai application. 
+
+: if you provide more examples as a reference I could respond back to your with more precise response . 
+
+
+3. Role based prompt :  To whom you are serving 
+
+I am senior software tester! 
+Manager 
+intern 
+5 years old kid 
+
+prompt anatomy : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
