@@ -1,0 +1,139 @@
+Good morning !!!!!
+=====================
+
+Prompt types:
+=============
+1. single shot / zero shot => task 
+2. Multishot/few shot prompt  => task+ a bit more explanation about the task with examples to understand more clearly about the task 
+3. Role based prompt  => you are providing the information to whom you are serving 
+based on this role AI will able to generate response 
+
+4. Rule based prompt or constraint based prompt : 
+
+exclude /include particular specific condition then we can use rule based prompt 
+
+
+=> Write testcases for drugs.com search module  => zero shot prompt 
+=> Write testcases for drigs.com search module. We need to search for a medicine which exist in the website and search results should be display about that medicine clearly . how to use , when to use , dosage, precautions we need to consider for this medicine .  can we take this medicine along with other medicines kind of answers we can experience in the resulting page. 
+
+or you can add an userstoy or acceptance criteria for a user story comes under this multi shot prompt .
+
+=> I am a 15+ years of experienced software test manager working from past 2 years in the drugs.com , now Write test cases for me 
+
+
+I am a testing intern write test cases for drugs.com 
+
+=> Write test cases for drugs.com application only cover search module and do not cover any other modules . Focus more on positive test cases only. 
+
+=> Write test cases for drugs.com applications only to cover the smoke testing 
+
+=> write only top 10 test cases for drugs.com application 
+=> => write only top 25 test cases for drugs.com application 
+
+=> write only functional testcases for drugs.com application 
+If you add any condition that needs to considered in generating the response => that is nothing but condition based / constraint based / rule based prompt.
+==============================================================================
+5. output based prompt : output also we need to mention 
+
+suppose I need to see what is testing in the image format ? you need to supply the output format as image 
+code you need to ask i need code in java 
+
+Write testcases for drugs.com in IEEE format and create it in tabular format 
+
+create test cases for drugs.com in downloadable spread sheet in IEEE format 
+
+=> table format results 
+=> presentation 
+=> word document 
+=> images 
+=> voice note 
+=> video files => based on LLM capability 
+
+
+cluade.com => skill=> excel/word/ppt/md / claude chrome plugin we need to install 
+in both desktop and claude chrome we need to be login with the same extension 
+
+then you clude will act as a agent able to finish the job as a human 
+
+6. chain of thoughts [COT] => 
+the entire question should not be in one go ! 
+you need to split the task into multiple steps 
+
+=> single shot + COT => 
+Write testcases for drugs.com step by step => 
+
+if you want to create a prompt what are required?
+
+Good prompt : 
+
+1. Task or ask or question 
+2. Add more info or context 
+3. To whom we are serving 
+4. conditions we consider 
+5. output format 
+
+prompt => test case in Gen AI testing 
+how you draft a prompt 
+how many possibilities we do have for this req to draft a prompt 
+
+positively 
+negatively 
+with considerations of boundaries 
+template 
+edge cases we need to mention 
+switching the context in between test cases execution 
+
+for this by tomorrow I will share 20 test cases/prompt for each domain 
+
+Exploratory testing 
+
+No change in the test case template + 2 additional items 
+Bug template 
+Capstone project => 1 drugs.com 
+                    2  MakeMyTrip myra 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
