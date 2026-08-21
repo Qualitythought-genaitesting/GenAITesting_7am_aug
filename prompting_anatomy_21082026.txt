@@ -1,0 +1,59 @@
+Good morning !!!!!
+==================
+Recap! 
+
+We are understanding different types of prompting 
+
+=> Note: refining the prompt is always important 
+
+Gen AI =>
+User asks a question => generate the response => Gen AI application
+User prompt => through UI => system prompt + user prompt  => LLM [ AI brain] 
+=> will generate the response => guardrails[safety filter ]=> Response
+
+system prompt  => hidden rules / condtions / facilities we are providing to this application 
+=> what to do / what not to do with this application 
+
+
+Claude:
+Claude is AI and can make mistakes. Please double-check responses.
+
+drugs.com=> ai 
+
+Drugs.com AI is powered by artificial intelligence. It may NOT be accurate, complete, or appropriate for all situations. It is highly experimental and NOT intended as medical advice, diagnosis, or treatment. For any medical issues, you should ALWAYS consult with your healthcare provider.
+
+
+Good prompt :  Positive testing 
+1. Role  => clear role and task to understand what you want and whom you are
+2. Task 
+3. Context => elaborate your question to answer more precisely 
+4. Examples => gives more confidence to predict your expectations
+5. format  => in which output format you want to see the response 
+6. Guardrails or rules  => what conditions i need to keep in mind while answering 
+
+not good prompt : Negative testing 
+if you miss one or more elements of a prompt and try to get the response then it comes under negative testing 
+
+Edge testing : boundary testing :  whenever your prompt mentions some boundaries then you can cross check those boundaries 
+
+end to end  testing : 
+
+smoke testing :
+
+Sanity testing : 
+
+Regression testing : 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
